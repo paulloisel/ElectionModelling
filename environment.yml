@@ -1,0 +1,25 @@
+name: election-modeling
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas=2.0.3
+  - numpy=1.24.3
+  - scikit-learn=1.3.0
+  - xgboost=1.7.6
+  - statsmodels=0.14.0
+  - pdfplumber=0.9.0
+  - geopandas=0.13.2
+  - shapely=2.0.1
+  - matplotlib=3.7.2
+  - seaborn=0.12.2
+  - jupyter=1.0.0
+  - notebook=7.0.2
+  - requests=2.31.0
+  - joblib=1.3.2
+  - pip=23.2.1
+  - pip:
+    - openpyxl==3.1.2
+    - pyarrow==12.0.1
+    - feather-format==0.4.1 

@@ -1,0 +1,1059 @@
+CountyCode	CountyName	DistrictTypeCode	DistrictCode	DistrictName	RaceJurisdictionTypeName	RaceJurisdictionName	RaceName	RaceDisplayOrder	BallotName	BallotDisplayOrder	votes	DistrictID	
+AD	Adams	LEG	9	Legislative District 9	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	67068	
+AD	Adams	LEG	9	Legislative District 9	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	67068	
+AD	Adams	LEG	9	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Gavin Seim	1.0	57	67068	
+AD	Adams	LEG	9	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Estakio Beltran	2.0	162	67068	
+AD	Adams	LEG	9	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Dan Newhouse	3.0	397	67068	
+AD	Adams	LEG	9	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Clint Didier	4.0	1081	67068	
+AD	Adams	LEG	9	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Josh Ramirez	5.0	32	67068	
+AD	Adams	LEG	9	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Gordon Allen Pross	6.0	3	67068	
+AD	Adams	LEG	9	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Tony Sandoval	7.0	87	67068	
+AD	Adams	LEG	9	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Kevin Midbust	8.0	6	67068	
+AD	Adams	LEG	9	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Glen R. Stockwell	9.0	64	67068	
+AD	Adams	LEG	9	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	George Cicotte	10.0	72	67068	
+AD	Adams	LEG	9	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Janéa Holmquist	11.0	206	67068	
+AD	Adams	LEG	9	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Richard Wright	12.0	58	67068	
+AD	Adams	LEG	9	Legislative District 9	Legislative	Legislative District 9	State Representative Pos. 1	17	Susan Fagan	1.0	1775	67068	
+AD	Adams	LEG	9	Legislative District 9	Legislative	Legislative District 9	State Representative Pos. 2	18	Joe Schmick	1.0	1759	67068	
+AS	Asotin	LEG	09	Legislative District 9	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	67192	
+AS	Asotin	LEG	09	Legislative District 9	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	67192	
+AS	Asotin	LEG	09	Legislative District 9	Congressional	Congressional District 5	U.S. Representative	6	Cathy McMorris Rodgers	1.0	2772	67192	
+AS	Asotin	LEG	09	Legislative District 9	Congressional	Congressional District 5	U.S. Representative	6	Dave Wilson	2.0	590	67192	
+AS	Asotin	LEG	09	Legislative District 9	Congressional	Congressional District 5	U.S. Representative	6	Joseph (Joe) Pakootas	3.0	1371	67192	
+AS	Asotin	LEG	09	Legislative District 9	Congressional	Congressional District 5	U.S. Representative	6	Tom Horne	4.0	516	67192	
+AS	Asotin	LEG	09	Legislative District 9	Legislative	Legislative District 9	State Representative Pos. 1	17	Susan Fagan	1.0	4073	67192	
+AS	Asotin	LEG	09	Legislative District 9	Legislative	Legislative District 9	State Representative Pos. 2	18	Joe Schmick	1.0	3968	67192	
+BE	Benton	LEG	LE08	Legislative District 8	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	79523	
+BE	Benton	LEG	LE16	Legislative District 16	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	79522	
+BE	Benton	LEG	LE16	Legislative District 16	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	79522	
+BE	Benton	LEG	LE08	Legislative District 8	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	79523	
+BE	Benton	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	7	Gavin Seim	1.0	67	79522	
+BE	Benton	LEG	LE08	Legislative District 8	Congressional	Congressional District 4	U.S. Representative	7	Gavin Seim	1.0	225	79523	
+BE	Benton	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	7	Estakio Beltran	2.0	665	79522	
+BE	Benton	LEG	LE08	Legislative District 8	Congressional	Congressional District 4	U.S. Representative	7	Estakio Beltran	2.0	3633	79523	
+BE	Benton	LEG	LE08	Legislative District 8	Congressional	Congressional District 4	U.S. Representative	7	Dan Newhouse	3.0	5750	79523	
+BE	Benton	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	7	Dan Newhouse	3.0	2084	79522	
+BE	Benton	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	7	Clint Didier	4.0	2874	79522	
+BE	Benton	LEG	LE08	Legislative District 8	Congressional	Congressional District 4	U.S. Representative	7	Clint Didier	4.0	9803	79523	
+BE	Benton	LEG	LE08	Legislative District 8	Congressional	Congressional District 4	U.S. Representative	7	Josh Ramirez	5.0	491	79523	
+BE	Benton	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	7	Josh Ramirez	5.0	113	79522	
+BE	Benton	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	7	Gordon Allen Pross	6.0	10	79522	
+BE	Benton	LEG	LE08	Legislative District 8	Congressional	Congressional District 4	U.S. Representative	7	Gordon Allen Pross	6.0	53	79523	
+BE	Benton	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	7	Tony Sandoval	7.0	445	79522	
+BE	Benton	LEG	LE08	Legislative District 8	Congressional	Congressional District 4	U.S. Representative	7	Tony Sandoval	7.0	1880	79523	
+BE	Benton	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	7	Kevin Midbust	8.0	13	79522	
+BE	Benton	LEG	LE08	Legislative District 8	Congressional	Congressional District 4	U.S. Representative	7	Kevin Midbust	8.0	64	79523	
+BE	Benton	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	7	Glen R. Stockwell	9.0	19	79522	
+BE	Benton	LEG	LE08	Legislative District 8	Congressional	Congressional District 4	U.S. Representative	7	Glen R. Stockwell	9.0	96	79523	
+BE	Benton	LEG	LE08	Legislative District 8	Congressional	Congressional District 4	U.S. Representative	7	George Cicotte	10.0	3849	79523	
+BE	Benton	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	7	George Cicotte	10.0	708	79522	
+BE	Benton	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	7	Janéa Holmquist	11.0	333	79522	
+BE	Benton	LEG	LE08	Legislative District 8	Congressional	Congressional District 4	U.S. Representative	7	Janéa Holmquist	11.0	1715	79523	
+BE	Benton	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	7	Richard Wright	12.0	204	79522	
+BE	Benton	LEG	LE08	Legislative District 8	Congressional	Congressional District 4	U.S. Representative	7	Richard Wright	12.0	1092	79523	
+BE	Benton	LEG	LE08	Legislative District 8	Legislative	Legislative District 8	State Senator	17	Doug McKinley	1.0	7346	79523	
+BE	Benton	LEG	LE08	Legislative District 8	Legislative	Legislative District 8	State Senator	17	Sharon Brown	2.0	20955	79523	
+BE	Benton	LEG	LE08	Legislative District 8	Legislative	Legislative District 8	State Representative Pos. 1	18	Brad Klippert	1.0	21725	79523	
+BE	Benton	LEG	LE08	Legislative District 8	Legislative	Legislative District 8	State Representative Pos. 2	19	Eric Kalia	1.0	6625	79523	
+BE	Benton	LEG	LE08	Legislative District 8	Legislative	Legislative District 8	State Representative Pos. 2	19	Larry Haler	2.0	21434	79523	
+BE	Benton	LEG	LE16	Legislative District 16	Legislative	Legislative District 16	State Representative Pos. 1	21	Mary Ruth Edwards	1.0	3010	79522	
+BE	Benton	LEG	LE16	Legislative District 16	Legislative	Legislative District 16	State Representative Pos. 1	21	Maureen S. Walsh	2.0	3247	79522	
+BE	Benton	LEG	LE16	Legislative District 16	Legislative	Legislative District 16	State Representative Pos. 2	22	Terry R. Nealey	1.0	5352	79522	
+CH	Chelan	LEG	LEG12	Legislative District 12	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	64184	
+CH	Chelan	LEG	LEG12	Legislative District 12	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	64184	
+CH	Chelan	LEG	LEG12	Legislative District 12	Congressional	Congressional District 8	U.S. Representative	6	Jason Ritchie	1.0	2724	64184	
+CH	Chelan	LEG	LEG12	Legislative District 12	Congressional	Congressional District 8	U.S. Representative	6	Dave Reichert	2.0	9139	64184	
+CH	Chelan	LEG	LEG12	Legislative District 12	Congressional	Congressional District 8	U.S. Representative	6	Keith Arnold	3.0	894	64184	
+CH	Chelan	LEG	LEG12	Legislative District 12	Legislative	Legislative District 12	State Representative Pos. 1	17	Cary Condotta	1.0	9466	64184	
+CH	Chelan	LEG	LEG12	Legislative District 12	Legislative	Legislative District 12	State Representative Pos. 2	18	Brad Hawkins	1.0	9753	64184	
+CM	Clallam	LEG	24	Legislative District 24	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	67309	
+CM	Clallam	LEG	24	Legislative District 24	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	67309	
+CM	Clallam	LEG	24	Legislative District 24	Congressional	Congressional District 6	U.S. Representative	6	Derek Kilmer	1.0	9120	67309	
+CM	Clallam	LEG	24	Legislative District 24	Congressional	Congressional District 6	U.S. Representative	6	W. (Greybeard) McPherson	2.0	646	67309	
+CM	Clallam	LEG	24	Legislative District 24	Congressional	Congressional District 6	U.S. Representative	6	Marty McClendon	3.0	6718	67309	
+CM	Clallam	LEG	24	Legislative District 24	Congressional	Congressional District 6	U.S. Representative	6	Douglas Milholland	4.0	490	67309	
+CM	Clallam	LEG	24	Legislative District 24	Legislative	Legislative District 24	State Representative Pos. 1	17	Kevin Van De Wege	1.0	11135	67309	
+CM	Clallam	LEG	24	Legislative District 24	Legislative	Legislative District 24	State Representative Pos. 2	18	Steve Tharinger	1.0	9041	67309	
+CM	Clallam	LEG	24	Legislative District 24	Legislative	Legislative District 24	State Representative Pos. 2	18	Thomas W. Greisamer	2.0	6764	67309	
+CM	Clallam	LEG	24	Legislative District 24	Legislative	Legislative District 24	State Representative Pos. 2	18	Stafford A. Conway	3.0	1367	67309	
+CR	Clark	LEG	18	Legislative District 18	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	69277	
+CR	Clark	LEG	20	Legislative District 20	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	99154	
+CR	Clark	LEG	49	Legislative District 49	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	69279	
+CR	Clark	LEG	14	Legislative District 14	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	99153	
+CR	Clark	LEG	17	Legislative District 17	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	69276	
+CR	Clark	LEG	14	Legislative District 14	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	99153	
+CR	Clark	LEG	18	Legislative District 18	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	69277	
+CR	Clark	LEG	20	Legislative District 20	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	99154	
+CR	Clark	LEG	17	Legislative District 17	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	69276	
+CR	Clark	LEG	49	Legislative District 49	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	69279	
+CR	Clark	LEG	17	Legislative District 17	Congressional	Congressional District 3	U.S. Representative	6	Bob Dingethal	1.0	8045	69276	
+CR	Clark	LEG	49	Legislative District 49	Congressional	Congressional District 3	U.S. Representative	6	Bob Dingethal	1.0	10261	69279	
+CR	Clark	LEG	14	Legislative District 14	Congressional	Congressional District 3	U.S. Representative	6	Bob Dingethal	1.0	246	99153	
+CR	Clark	LEG	20	Legislative District 20	Congressional	Congressional District 3	U.S. Representative	6	Bob Dingethal	1.0	638	99154	
+CR	Clark	LEG	18	Legislative District 18	Congressional	Congressional District 3	U.S. Representative	6	Bob Dingethal	1.0	9545	69277	
+CR	Clark	LEG	49	Legislative District 49	Congressional	Congressional District 3	U.S. Representative	6	Jaime Herrera Beutler	2.0	8761	69279	
+CR	Clark	LEG	17	Legislative District 17	Congressional	Congressional District 3	U.S. Representative	6	Jaime Herrera Beutler	2.0	10369	69276	
+CR	Clark	LEG	14	Legislative District 14	Congressional	Congressional District 3	U.S. Representative	6	Jaime Herrera Beutler	2.0	349	99153	
+CR	Clark	LEG	18	Legislative District 18	Congressional	Congressional District 3	U.S. Representative	6	Jaime Herrera Beutler	2.0	13108	69277	
+CR	Clark	LEG	20	Legislative District 20	Congressional	Congressional District 3	U.S. Representative	6	Jaime Herrera Beutler	2.0	1114	99154	
+CR	Clark	LEG	14	Legislative District 14	Congressional	Congressional District 3	U.S. Representative	6	Michael Delavar	3.0	141	99153	
+CR	Clark	LEG	18	Legislative District 18	Congressional	Congressional District 3	U.S. Representative	6	Michael Delavar	3.0	3496	69277	
+CR	Clark	LEG	17	Legislative District 17	Congressional	Congressional District 3	U.S. Representative	6	Michael Delavar	3.0	2693	69276	
+CR	Clark	LEG	49	Legislative District 49	Congressional	Congressional District 3	U.S. Representative	6	Michael Delavar	3.0	2040	69279	
+CR	Clark	LEG	20	Legislative District 20	Congressional	Congressional District 3	U.S. Representative	6	Michael Delavar	3.0	390	99154	
+CR	Clark	LEG	14	Legislative District 14	Legislative	Legislative District 14	State Representative Pos. 1	17	Norm Johnson	1.0	500	99153	
+CR	Clark	LEG	14	Legislative District 14	Legislative	Legislative District 14	State Representative Pos. 2	18	Ben Shoval	1.0	160	99153	
+CR	Clark	LEG	14	Legislative District 14	Legislative	Legislative District 14	State Representative Pos. 2	18	Gina R. McCabe	2.0	161	99153	
+CR	Clark	LEG	14	Legislative District 14	Legislative	Legislative District 14	State Representative Pos. 2	18	Adam Yoest	3.0	141	99153	
+CR	Clark	LEG	14	Legislative District 14	Legislative	Legislative District 14	State Representative Pos. 2	18	Paul George	4.0	233	99153	
+CR	Clark	LEG	17	Legislative District 17	Legislative	Legislative District 17	State Representative Pos. 1	20	Lynda Wilson	1.0	10841	69276	
+CR	Clark	LEG	17	Legislative District 17	Legislative	Legislative District 17	State Representative Pos. 1	20	Monica Stonier	2.0	10149	69276	
+CR	Clark	LEG	17	Legislative District 17	Legislative	Legislative District 17	State Representative Pos. 2	21	Richard McCluskey	1.0	8130	69276	
+CR	Clark	LEG	17	Legislative District 17	Legislative	Legislative District 17	State Representative Pos. 2	21	Paul Harris	2.0	10551	69276	
+CR	Clark	LEG	17	Legislative District 17	Legislative	Legislative District 17	State Representative Pos. 2	21	Chris Rockhold	3.0	2100	69276	
+CR	Clark	LEG	18	Legislative District 18	Legislative	Legislative District 18	State Representative Pos. 1	23	John Ley	1.0	6859	69277	
+CR	Clark	LEG	18	Legislative District 18	Legislative	Legislative District 18	State Representative Pos. 1	23	Mike Briggs	2.0	9703	69277	
+CR	Clark	LEG	18	Legislative District 18	Legislative	Legislative District 18	State Representative Pos. 1	23	Brandon Vick	3.0	8993	69277	
+CR	Clark	LEG	18	Legislative District 18	Legislative	Legislative District 18	State Representative Pos. 2	24	Liz Pike	1.0	14797	69277	
+CR	Clark	LEG	18	Legislative District 18	Legislative	Legislative District 18	State Representative Pos. 2	24	Maureen Winningham	2.0	10845	69277	
+CR	Clark	LEG	20	Legislative District 20	Legislative	Legislative District 20	State Representative Pos. 1	26	Richard DeBolt	1.0	1165	99154	
+CR	Clark	LEG	20	Legislative District 20	Legislative	Legislative District 20	State Representative Pos. 1	26	Michael Savoca	2.0	790	99154	
+CR	Clark	LEG	20	Legislative District 20	Legislative	Legislative District 20	State Representative Pos. 2	27	Ed Orcutt	1.0	1297	99154	
+CR	Clark	LEG	20	Legislative District 20	Legislative	Legislative District 20	State Representative Pos. 2	27	John Morgan	2.0	520	99154	
+CR	Clark	LEG	49	Legislative District 49	Legislative	Legislative District 49	State Representative Pos. 1	29	Sharon Wylie	1.0	11505	69279	
+CR	Clark	LEG	49	Legislative District 49	Legislative	Legislative District 49	State Representative Pos. 1	29	Anson Service	2.0	7720	69279	
+CR	Clark	LEG	49	Legislative District 49	Legislative	Legislative District 49	State Representative Pos. 1	29	Scott Dalesandro	3.0	1537	69279	
+CR	Clark	LEG	49	Legislative District 49	Legislative	Legislative District 49	State Representative Pos. 2	30	Lisa Ross	1.0	5540	69279	
+CR	Clark	LEG	49	Legislative District 49	Legislative	Legislative District 49	State Representative Pos. 2	30	Jim Moeller	2.0	11381	69279	
+CR	Clark	LEG	49	Legislative District 49	Legislative	Legislative District 49	State Representative Pos. 2	30	Carolyn Crain	3.0	3783	69279	
+CU	Columbia	LEG	16	Legislative District 16	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	67476	
+CU	Columbia	LEG	16	Legislative District 16	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	67476	
+CU	Columbia	LEG	16	Legislative District 16	Congressional	Congressional District 5	U.S. Representative	6	Cathy McMorris Rodgers	1.0	838	67476	
+CU	Columbia	LEG	16	Legislative District 16	Congressional	Congressional District 5	U.S. Representative	6	Dave Wilson	2.0	108	67476	
+CU	Columbia	LEG	16	Legislative District 16	Congressional	Congressional District 5	U.S. Representative	6	Joseph (Joe) Pakootas	3.0	203	67476	
+CU	Columbia	LEG	16	Legislative District 16	Congressional	Congressional District 5	U.S. Representative	6	Tom Horne	4.0	110	67476	
+CU	Columbia	LEG	16	Legislative District 16	Legislative	Legislative District 16	State Representative Pos. 1	17	Mary Ruth Edwards	1.0	399	67476	
+CU	Columbia	LEG	16	Legislative District 16	Legislative	Legislative District 16	State Representative Pos. 1	17	Maureen S. Walsh	2.0	802	67476	
+CU	Columbia	LEG	16	Legislative District 16	Legislative	Legislative District 16	State Representative Pos. 2	18	Terry R. Nealey	1.0	1090	67476	
+CZ	Cowlitz	LEG	LE0019   	Legislative District 19	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	79542	
+CZ	Cowlitz	LEG	LE0020	Legislative District 20	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	101340	
+CZ	Cowlitz	LEG	LE0020	Legislative District 20	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	101340	
+CZ	Cowlitz	LEG	LE0019   	Legislative District 19	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	79542	
+CZ	Cowlitz	LEG	LE0020	Legislative District 20	Congressional	Congressional District 3	U.S. Representative	6	Bob Dingethal	1.0	2406	101340	
+CZ	Cowlitz	LEG	LE0019   	Legislative District 19	Congressional	Congressional District 3	U.S. Representative	6	Bob Dingethal	1.0	5416	79542	
+CZ	Cowlitz	LEG	LE0020	Legislative District 20	Congressional	Congressional District 3	U.S. Representative	6	Jaime Herrera Beutler	2.0	3253	101340	
+CZ	Cowlitz	LEG	LE0019   	Legislative District 19	Congressional	Congressional District 3	U.S. Representative	6	Jaime Herrera Beutler	2.0	4856	79542	
+CZ	Cowlitz	LEG	LE0019   	Legislative District 19	Congressional	Congressional District 3	U.S. Representative	6	Michael Delavar	3.0	1626	79542	
+CZ	Cowlitz	LEG	LE0020	Legislative District 20	Congressional	Congressional District 3	U.S. Representative	6	Michael Delavar	3.0	1124	101340	
+CZ	Cowlitz	LEG	LE0019   	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 1	17	Dean Takko	1.0	7964	79542	
+CZ	Cowlitz	LEG	LE0019   	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 1	17	David A. Steenson	2.0	3372	79542	
+CZ	Cowlitz	LEG	LE0019   	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 2	18	Hugh Fleet	1.0	3702	79542	
+CZ	Cowlitz	LEG	LE0019   	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 2	18	Brian Blake	2.0	6885	79542	
+CZ	Cowlitz	LEG	LE0019   	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 2	18	James (Jimi) O'Hagan  	3.0	1137	79542	
+CZ	Cowlitz	LEG	LE0020	Legislative District 20	Legislative	Legislative District 20	State Representative Pos. 1	20	Richard DeBolt	1.0	3402	101340	
+CZ	Cowlitz	LEG	LE0020	Legislative District 20	Legislative	Legislative District 20	State Representative Pos. 1	20	Michael Savoca	2.0	2497	101340	
+CZ	Cowlitz	LEG	LE0020	Legislative District 20	Legislative	Legislative District 20	State Representative Pos. 2	21	Ed Orcutt	1.0	3888	101340	
+CZ	Cowlitz	LEG	LE0020	Legislative District 20	Legislative	Legislative District 20	State Representative Pos. 2	21	John Morgan	2.0	1702	101340	
+DG	Douglas	LEG	012	Legislative District 12	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	79622	
+DG	Douglas	LEG	012	Legislative District 12	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	79622	
+DG	Douglas	LEG	012	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Gavin Seim	1.0	115	79622	
+DG	Douglas	LEG	012	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Estakio Beltran	2.0	299	79622	
+DG	Douglas	LEG	012	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Dan Newhouse	3.0	495	79622	
+DG	Douglas	LEG	012	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Clint Didier	4.0	1565	79622	
+DG	Douglas	LEG	012	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Josh Ramirez	5.0	68	79622	
+DG	Douglas	LEG	012	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Gordon Allen Pross	6.0	7	79622	
+DG	Douglas	LEG	012	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Tony Sandoval	7.0	315	79622	
+DG	Douglas	LEG	012	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Kevin Midbust	8.0	5	79622	
+DG	Douglas	LEG	012	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Glen R. Stockwell	9.0	52	79622	
+DG	Douglas	LEG	012	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	George Cicotte	10.0	136	79622	
+DG	Douglas	LEG	012	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Janéa Holmquist	11.0	417	79622	
+DG	Douglas	LEG	012	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Richard Wright	12.0	128	79622	
+DG	Douglas	LEG	012	Legislative District 12	Congressional	Congressional District 8	U.S. Representative	16	Jason Ritchie	1.0	577	79622	
+DG	Douglas	LEG	012	Legislative District 12	Congressional	Congressional District 8	U.S. Representative	16	Dave Reichert	2.0	1939	79622	
+DG	Douglas	LEG	012	Legislative District 12	Congressional	Congressional District 8	U.S. Representative	16	Keith Arnold	3.0	213	79622	
+DG	Douglas	LEG	012	Legislative District 12	Legislative	Legislative District 12	State Representative Pos. 1	18	Cary Condotta	1.0	5015	79622	
+DG	Douglas	LEG	012	Legislative District 12	Legislative	Legislative District 12	State Representative Pos. 2	19	Brad Hawkins	1.0	5128	79622	
+FE	Ferry	LEG	07	Legislative District 7	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	67572	
+FE	Ferry	LEG	07	Legislative District 7	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	67572	
+FE	Ferry	LEG	07	Legislative District 7	Congressional	Congressional District 5	U.S. Representative	6	Cathy McMorris Rodgers	1.0	1169	67572	
+FE	Ferry	LEG	07	Legislative District 7	Congressional	Congressional District 5	U.S. Representative	6	Dave Wilson	2.0	252	67572	
+FE	Ferry	LEG	07	Legislative District 7	Congressional	Congressional District 5	U.S. Representative	6	Joseph (Joe) Pakootas	3.0	689	67572	
+FE	Ferry	LEG	07	Legislative District 7	Congressional	Congressional District 5	U.S. Representative	6	Tom Horne	4.0	255	67572	
+FE	Ferry	LEG	07	Legislative District 7	Legislative	Legislative District 7	State Senator	16	Tony Booth	1.0	432	67572	
+FE	Ferry	LEG	07	Legislative District 7	Legislative	Legislative District 7	State Senator	16	Brian Dansel	2.0	1852	67572	
+FE	Ferry	LEG	07	Legislative District 7	Legislative	Legislative District 7	State Representative Pos. 1	17	Shelly Short	1.0	1767	67572	
+FE	Ferry	LEG	07	Legislative District 7	Legislative	Legislative District 7	State Representative Pos. 1	17	James R. Apker	2.0	416	67572	
+FE	Ferry	LEG	07	Legislative District 7	Legislative	Legislative District 7	State Representative Pos. 2	18	Joel Kretz	1.0	1852	67572	
+FE	Ferry	LEG	07	Legislative District 7	Legislative	Legislative District 7	State Representative Pos. 2	18	Ronnie Rae	2.0	350	67572	
+FR	Franklin	LEG	LE16	Legislative District 16	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	63466	
+FR	Franklin	LEG	LE09	Legislative District 9	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	63465	
+FR	Franklin	LEG	LE09	Legislative District 9	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	63465	
+FR	Franklin	LEG	LE16	Legislative District 16	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	63466	
+FR	Franklin	LEG	LE09	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Gavin Seim	1.0	77	63465	
+FR	Franklin	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	6	Gavin Seim	1.0	16	63466	
+FR	Franklin	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	6	Estakio Beltran	2.0	397	63466	
+FR	Franklin	LEG	LE09	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Estakio Beltran	2.0	633	63465	
+FR	Franklin	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	6	Dan Newhouse	3.0	407	63466	
+FR	Franklin	LEG	LE09	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Dan Newhouse	3.0	1512	63465	
+FR	Franklin	LEG	LE09	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Clint Didier	4.0	3434	63465	
+FR	Franklin	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	6	Clint Didier	4.0	953	63466	
+FR	Franklin	LEG	LE09	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Josh Ramirez	5.0	115	63465	
+FR	Franklin	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	6	Josh Ramirez	5.0	39	63466	
+FR	Franklin	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	6	Gordon Allen Pross	6.0	6	63466	
+FR	Franklin	LEG	LE09	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Gordon Allen Pross	6.0	5	63465	
+FR	Franklin	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	6	Tony Sandoval	7.0	217	63466	
+FR	Franklin	LEG	LE09	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Tony Sandoval	7.0	282	63465	
+FR	Franklin	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	6	Kevin Midbust	8.0	4	63466	
+FR	Franklin	LEG	LE09	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Kevin Midbust	8.0	6	63465	
+FR	Franklin	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	6	Glen R. Stockwell	9.0	9	63466	
+FR	Franklin	LEG	LE09	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Glen R. Stockwell	9.0	33	63465	
+FR	Franklin	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	6	George Cicotte	10.0	181	63466	
+FR	Franklin	LEG	LE09	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	George Cicotte	10.0	530	63465	
+FR	Franklin	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	6	Janéa Holmquist	11.0	165	63466	
+FR	Franklin	LEG	LE09	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Janéa Holmquist	11.0	482	63465	
+FR	Franklin	LEG	LE16	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	6	Richard Wright	12.0	123	63466	
+FR	Franklin	LEG	LE09	Legislative District 9	Congressional	Congressional District 4	U.S. Representative	6	Richard Wright	12.0	341	63465	
+FR	Franklin	LEG	LE09	Legislative District 9	Legislative	Legislative District 9	State Representative Pos. 1	17	Susan Fagan	1.0	5655	63465	
+FR	Franklin	LEG	LE09	Legislative District 9	Legislative	Legislative District 9	State Representative Pos. 2	18	Joe Schmick	1.0	5432	63465	
+FR	Franklin	LEG	LE16	Legislative District 16	Legislative	Legislative District 16	State Representative Pos. 1	20	Mary Ruth Edwards	1.0	863	63466	
+FR	Franklin	LEG	LE16	Legislative District 16	Legislative	Legislative District 16	State Representative Pos. 1	20	Maureen S. Walsh	2.0	1344	63466	
+FR	Franklin	LEG	LE16	Legislative District 16	Legislative	Legislative District 16	State Representative Pos. 2	21	Terry R. Nealey	1.0	1948	63466	
+GA	Garfield	LEG	09	Legislative District 9	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	67632	
+GA	Garfield	LEG	09	Legislative District 9	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	67632	
+GA	Garfield	LEG	09	Legislative District 9	Congressional	Congressional District 5	U.S. Representative	6	Cathy McMorris Rodgers	1.0	577	67632	
+GA	Garfield	LEG	09	Legislative District 9	Congressional	Congressional District 5	U.S. Representative	6	Dave Wilson	2.0	63	67632	
+GA	Garfield	LEG	09	Legislative District 9	Congressional	Congressional District 5	U.S. Representative	6	Joseph (Joe) Pakootas	3.0	120	67632	
+GA	Garfield	LEG	09	Legislative District 9	Congressional	Congressional District 5	U.S. Representative	6	Tom Horne	4.0	63	67632	
+GA	Garfield	LEG	09	Legislative District 9	Legislative	Legislative District 9	State Representative Pos. 1	17	Susan Fagan	1.0	679	67632	
+GA	Garfield	LEG	09	Legislative District 9	Legislative	Legislative District 9	State Representative Pos. 2	18	Joe Schmick	1.0	678	67632	
+GR	Grant	LEG	LE13     	Legislative District 13	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	79680	
+GR	Grant	LEG	LE12     	Legislative District 12	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	79679	
+GR	Grant	LEG	LE12     	Legislative District 12	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	79679	
+GR	Grant	LEG	LE13     	Legislative District 13	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	79680	
+GR	Grant	LEG	LE13     	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Gavin Seim	1.0	657	79680	
+GR	Grant	LEG	LE12     	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Gavin Seim	1.0	118	79679	
+GR	Grant	LEG	LE13     	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Estakio Beltran	2.0	841	79680	
+GR	Grant	LEG	LE12     	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Estakio Beltran	2.0	131	79679	
+GR	Grant	LEG	LE13     	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Dan Newhouse	3.0	1472	79680	
+GR	Grant	LEG	LE12     	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Dan Newhouse	3.0	181	79679	
+GR	Grant	LEG	LE13     	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Clint Didier	4.0	3917	79680	
+GR	Grant	LEG	LE12     	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Clint Didier	4.0	544	79679	
+GR	Grant	LEG	LE12     	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Josh Ramirez	5.0	13	79679	
+GR	Grant	LEG	LE13     	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Josh Ramirez	5.0	109	79680	
+GR	Grant	LEG	LE13     	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Gordon Allen Pross	6.0	24	79680	
+GR	Grant	LEG	LE12     	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Gordon Allen Pross	6.0	5	79679	
+GR	Grant	LEG	LE13     	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Tony Sandoval	7.0	578	79680	
+GR	Grant	LEG	LE12     	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Tony Sandoval	7.0	128	79679	
+GR	Grant	LEG	LE12     	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Kevin Midbust	8.0	2	79679	
+GR	Grant	LEG	LE13     	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Kevin Midbust	8.0	10	79680	
+GR	Grant	LEG	LE12     	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Glen R. Stockwell	9.0	12	79679	
+GR	Grant	LEG	LE13     	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Glen R. Stockwell	9.0	53	79680	
+GR	Grant	LEG	LE12     	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	George Cicotte	10.0	42	79679	
+GR	Grant	LEG	LE13     	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	George Cicotte	10.0	293	79680	
+GR	Grant	LEG	LE13     	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Janéa Holmquist	11.0	4044	79680	
+GR	Grant	LEG	LE12     	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Janéa Holmquist	11.0	352	79679	
+GR	Grant	LEG	LE13     	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Richard Wright	12.0	258	79680	
+GR	Grant	LEG	LE12     	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	6	Richard Wright	12.0	35	79679	
+GR	Grant	LEG	LE12     	Legislative District 12	Legislative	Legislative District 12	State Representative Pos. 1	17	Cary Condotta	1.0	1184	79679	
+GR	Grant	LEG	LE12     	Legislative District 12	Legislative	Legislative District 12	State Representative Pos. 2	18	Brad Hawkins	1.0	1191	79679	
+GR	Grant	LEG	LE13     	Legislative District 13	Legislative	Legislative District 13	State Senator	19	Judith (Judy) Warnick	1.0	10935	79680	
+GR	Grant	LEG	LE13     	Legislative District 13	Legislative	Legislative District 13	State Senator	19	Mohammad Said	2.0	1125	79680	
+GR	Grant	LEG	LE13     	Legislative District 13	Legislative	Legislative District 13	State Representative Pos. 1	20	Dannette (Dani) Bolyard	1.0	3654	79680	
+GR	Grant	LEG	LE13     	Legislative District 13	Legislative	Legislative District 13	State Representative Pos. 1	20	Tom Dent	2.0	7410	79680	
+GR	Grant	LEG	LE13     	Legislative District 13	Legislative	Legislative District 13	State Representative Pos. 2	21	Matt Manweller	1.0	9651	79680	
+GY	Grays Harbor	LEG	LE24     	Legislative District 24	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	79787	
+GY	Grays Harbor	LEG	LE19	Legislative District 19	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	79786	
+GY	Grays Harbor	LEG	LE19	Legislative District 19	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	79786	
+GY	Grays Harbor	LEG	LE24     	Legislative District 24	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	79787	
+GY	Grays Harbor	LEG	LE24     	Legislative District 24	Congressional	Congressional District 6	U.S. Representative	6	Derek Kilmer	1.0	4103	79787	
+GY	Grays Harbor	LEG	LE19	Legislative District 19	Congressional	Congressional District 6	U.S. Representative	6	Derek Kilmer	1.0	4056	79786	
+GY	Grays Harbor	LEG	LE19	Legislative District 19	Congressional	Congressional District 6	U.S. Representative	6	W. (Greybeard) McPherson	2.0	415	79786	
+GY	Grays Harbor	LEG	LE24     	Legislative District 24	Congressional	Congressional District 6	U.S. Representative	6	W. (Greybeard) McPherson	2.0	439	79787	
+GY	Grays Harbor	LEG	LE24     	Legislative District 24	Congressional	Congressional District 6	U.S. Representative	6	Marty McClendon	3.0	2408	79787	
+GY	Grays Harbor	LEG	LE19	Legislative District 19	Congressional	Congressional District 6	U.S. Representative	6	Marty McClendon	3.0	1864	79786	
+GY	Grays Harbor	LEG	LE19	Legislative District 19	Congressional	Congressional District 6	U.S. Representative	6	Douglas Milholland	4.0	200	79786	
+GY	Grays Harbor	LEG	LE24     	Legislative District 24	Congressional	Congressional District 6	U.S. Representative	6	Douglas Milholland	4.0	231	79787	
+GY	Grays Harbor	LEG	LE19	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 1	17	Dean Takko	1.0	4539	79786	
+GY	Grays Harbor	LEG	LE19	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 1	17	David A. Steenson	2.0	1593	79786	
+GY	Grays Harbor	LEG	LE19	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 2	18	Hugh Fleet	1.0	1714	79786	
+GY	Grays Harbor	LEG	LE19	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 2	18	Brian Blake	2.0	4212	79786	
+GY	Grays Harbor	LEG	LE19	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 2	18	James (Jimi) O'Hagan  	3.0	655	79786	
+GY	Grays Harbor	LEG	LE24     	Legislative District 24	Legislative	Legislative District 24	State Representative Pos. 1	20	Kevin Van De Wege	1.0	5197	79787	
+GY	Grays Harbor	LEG	LE24     	Legislative District 24	Legislative	Legislative District 24	State Representative Pos. 2	21	Steve Tharinger	1.0	3833	79787	
+GY	Grays Harbor	LEG	LE24     	Legislative District 24	Legislative	Legislative District 24	State Representative Pos. 2	21	Thomas W. Greisamer	2.0	2628	79787	
+GY	Grays Harbor	LEG	LE24     	Legislative District 24	Legislative	Legislative District 24	State Representative Pos. 2	21	Stafford A. Conway	3.0	546	79787	
+IS	Island	LEG	10	Legislative District 10	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	68986	
+IS	Island	LEG	10	Legislative District 10	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	68986	
+IS	Island	LEG	10	Legislative District 10	Congressional	Congressional District 2	U.S. Representative	6	Mike Lapointe	1.0	2002	68986	
+IS	Island	LEG	10	Legislative District 10	Congressional	Congressional District 2	U.S. Representative	6	Rick Larsen	2.0	9435	68986	
+IS	Island	LEG	10	Legislative District 10	Congressional	Congressional District 2	U.S. Representative	6	B.J. Guillot	3.0	6535	68986	
+IS	Island	LEG	10	Legislative District 10	Legislative	Legislative District 10	State Representative Pos. 1	17	Norma Smith	1.0	12863	68986	
+IS	Island	LEG	10	Legislative District 10	Legislative	Legislative District 10	State Representative Pos. 1	17	Michael Scott	2.0	3305	68986	
+IS	Island	LEG	10	Legislative District 10	Legislative	Legislative District 10	State Representative Pos. 2	18	Dave Hayes	1.0	8274	68986	
+IS	Island	LEG	10	Legislative District 10	Legislative	Legislative District 10	State Representative Pos. 2	18	David Sponheim	2.0	2863	68986	
+IS	Island	LEG	10	Legislative District 10	Legislative	Legislative District 10	State Representative Pos. 2	18	Nick Petrish	3.0	4329	68986	
+IS	Island	LEG	10	Legislative District 10	Legislative	Legislative District 10	State Representative Pos. 2	18	Brien Lillquist	4.0	1767	68986	
+JE	Jefferson	LEG	LEG24	Legislative District 24	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	69661	
+JE	Jefferson	LEG	LEG24	Legislative District 24	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	69661	
+JE	Jefferson	LEG	LEG24	Legislative District 24	Congressional	Congressional District 6	U.S. Representative	6	Derek Kilmer	1.0	6477	69661	
+JE	Jefferson	LEG	LEG24	Legislative District 24	Congressional	Congressional District 6	U.S. Representative	6	W. (Greybeard) McPherson	2.0	308	69661	
+JE	Jefferson	LEG	LEG24	Legislative District 24	Congressional	Congressional District 6	U.S. Representative	6	Marty McClendon	3.0	2889	69661	
+JE	Jefferson	LEG	LEG24	Legislative District 24	Congressional	Congressional District 6	U.S. Representative	6	Douglas Milholland	4.0	1470	69661	
+JE	Jefferson	LEG	LEG24	Legislative District 24	Legislative	Legislative District 24	State Representative Pos. 1	17	Kevin Van De Wege	1.0	8014	69661	
+JE	Jefferson	LEG	LEG24	Legislative District 24	Legislative	Legislative District 24	State Representative Pos. 2	18	Steve Tharinger	1.0	7121	69661	
+JE	Jefferson	LEG	LEG24	Legislative District 24	Legislative	Legislative District 24	State Representative Pos. 2	18	Thomas W. Greisamer	2.0	2979	69661	
+JE	Jefferson	LEG	LEG24	Legislative District 24	Legislative	Legislative District 24	State Representative Pos. 2	18	Stafford A. Conway	3.0	750	69661	
+KI	King	LEG	LG45	Legislative District 45	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	73279	
+KI	King	LEG	LG33	Legislative District 33	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	73272	
+KI	King	LEG	LG41	Legislative District 41	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	73277	
+KI	King	LEG	LG31	Legislative District 31	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	73270	
+KI	King	LEG	LG48	Legislative District 48	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	73282	
+KI	King	LEG	LG43	Legislative District 43	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	73278	
+KI	King	LEG	LG34	Legislative District 34	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	73273	
+KI	King	LEG	LG01	Legislative District 1	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	73267	
+KI	King	LEG	LG32	Legislative District 32	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	73271	
+KI	King	LEG	LG37	Legislative District 37	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	73275	
+KI	King	LEG	LG46	Legislative District 46	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	73280	
+KI	King	LEG	LG30	Legislative District 30	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	73269	
+KI	King	LEG	LG11	Legislative District 11	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	73268	
+KI	King	LEG	LG36	Legislative District 36	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	73274	
+KI	King	LEG	LG47	Legislative District 47	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	73281	
+KI	King	LEG	LG05	Legislative District 5	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	73283	
+KI	King	LEG	LG39	Legislative District 39	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	73276	
+KI	King	LEG	LG46	Legislative District 46	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	73280	
+KI	King	LEG	LG05	Legislative District 5	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	73283	
+KI	King	LEG	LG47	Legislative District 47	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	73281	
+KI	King	LEG	LG34	Legislative District 34	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	73273	
+KI	King	LEG	LG37	Legislative District 37	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	73275	
+KI	King	LEG	LG39	Legislative District 39	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	73276	
+KI	King	LEG	LG11	Legislative District 11	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	73268	
+KI	King	LEG	LG45	Legislative District 45	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	73279	
+KI	King	LEG	LG01	Legislative District 1	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	73267	
+KI	King	LEG	LG31	Legislative District 31	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	73270	
+KI	King	LEG	LG36	Legislative District 36	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	73274	
+KI	King	LEG	LG30	Legislative District 30	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	73269	
+KI	King	LEG	LG48	Legislative District 48	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	73282	
+KI	King	LEG	LG33	Legislative District 33	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	73272	
+KI	King	LEG	LG41	Legislative District 41	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	73277	
+KI	King	LEG	LG43	Legislative District 43	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	73278	
+KI	King	LEG	LG32	Legislative District 32	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	73271	
+KP	Kitsap	LEG	35	Legislative District 35	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	70329	
+KP	Kitsap	LEG	23	Legislative District 23	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	70327	
+KP	Kitsap	LEG	26	Legislative District 26	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	70328	
+KP	Kitsap	LEG	23	Legislative District 23	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	70327	
+KP	Kitsap	LEG	35	Legislative District 35	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	70329	
+KP	Kitsap	LEG	26	Legislative District 26	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	70328	
+KP	Kitsap	LEG	23	Legislative District 23	Congressional	Congressional District 6	U.S. Representative	6	Derek Kilmer	1.0	17274	70327	
+KP	Kitsap	LEG	35	Legislative District 35	Congressional	Congressional District 6	U.S. Representative	6	Derek Kilmer	1.0	4081	70329	
+KP	Kitsap	LEG	26	Legislative District 26	Congressional	Congressional District 6	U.S. Representative	6	Derek Kilmer	1.0	8154	70328	
+KP	Kitsap	LEG	23	Legislative District 23	Congressional	Congressional District 6	U.S. Representative	6	W. (Greybeard) McPherson	2.0	850	70327	
+KP	Kitsap	LEG	26	Legislative District 26	Congressional	Congressional District 6	U.S. Representative	6	W. (Greybeard) McPherson	2.0	398	70328	
+KP	Kitsap	LEG	35	Legislative District 35	Congressional	Congressional District 6	U.S. Representative	6	W. (Greybeard) McPherson	2.0	316	70329	
+KP	Kitsap	LEG	26	Legislative District 26	Congressional	Congressional District 6	U.S. Representative	6	Marty McClendon	3.0	5331	70328	
+KP	Kitsap	LEG	35	Legislative District 35	Congressional	Congressional District 6	U.S. Representative	6	Marty McClendon	3.0	3211	70329	
+KP	Kitsap	LEG	23	Legislative District 23	Congressional	Congressional District 6	U.S. Representative	6	Marty McClendon	3.0	9452	70327	
+KP	Kitsap	LEG	35	Legislative District 35	Congressional	Congressional District 6	U.S. Representative	6	Douglas Milholland	4.0	189	70329	
+KP	Kitsap	LEG	23	Legislative District 23	Congressional	Congressional District 6	U.S. Representative	6	Douglas Milholland	4.0	718	70327	
+KP	Kitsap	LEG	26	Legislative District 26	Congressional	Congressional District 6	U.S. Representative	6	Douglas Milholland	4.0	308	70328	
+KP	Kitsap	LEG	23	Legislative District 23	Legislative	Legislative District 23	State Representative Pos. 1	17	Sherry V. Appleton	1.0	16692	70327	
+KP	Kitsap	LEG	23	Legislative District 23	Legislative	Legislative District 23	State Representative Pos. 1	17	Scott Henden	2.0	11379	70327	
+KP	Kitsap	LEG	23	Legislative District 23	Legislative	Legislative District 23	State Representative Pos. 2	18	James M. Olsen	1.0	10412	70327	
+KP	Kitsap	LEG	23	Legislative District 23	Legislative	Legislative District 23	State Representative Pos. 2	18	Drew Hansen	2.0	16978	70327	
+KP	Kitsap	LEG	26	Legislative District 26	Legislative	Legislative District 26	State Senator	19	Judy Arbogast	1.0	6134	70328	
+KP	Kitsap	LEG	26	Legislative District 26	Legislative	Legislative District 26	State Senator	19	Jan Angel	2.0	8043	70328	
+KP	Kitsap	LEG	26	Legislative District 26	Legislative	Legislative District 26	State Representative Pos. 1	20	Bill Scheidler	1.0	2288	70328	
+KP	Kitsap	LEG	26	Legislative District 26	Legislative	Legislative District 26	State Representative Pos. 1	20	Jesse Young	2.0	5070	70328	
+KP	Kitsap	LEG	26	Legislative District 26	Legislative	Legislative District 26	State Representative Pos. 1	20	Nathan Schlicher	3.0	6629	70328	
+KP	Kitsap	LEG	26	Legislative District 26	Legislative	Legislative District 26	State Representative Pos. 2	21	Michelle Caldier	1.0	7004	70328	
+KP	Kitsap	LEG	26	Legislative District 26	Legislative	Legislative District 26	State Representative Pos. 2	21	Larry Seaquist	2.0	7047	70328	
+KP	Kitsap	LEG	35	Legislative District 35	Legislative	Legislative District 35	State Senator	22	Irene Bowling	1.0	2151	70329	
+KP	Kitsap	LEG	35	Legislative District 35	Legislative	Legislative District 35	State Senator	22	Travis Couture	2.0	2678	70329	
+KP	Kitsap	LEG	35	Legislative District 35	Legislative	Legislative District 35	State Senator	22	Tim Sheldon	3.0	2943	70329	
+KP	Kitsap	LEG	35	Legislative District 35	Legislative	Legislative District 35	State Representative Pos. 1	23	Kathy Haigh	1.0	3570	70329	
+KP	Kitsap	LEG	35	Legislative District 35	Legislative	Legislative District 35	State Representative Pos. 1	23	Dan Griffey	2.0	2385	70329	
+KP	Kitsap	LEG	35	Legislative District 35	Legislative	Legislative District 35	State Representative Pos. 1	23	Josiah Rowell 	3.0	1774	70329	
+KP	Kitsap	LEG	35	Legislative District 35	Legislative	Legislative District 35	State Representative Pos. 2	24	Drew C. MacEwen	1.0	4472	70329	
+KP	Kitsap	LEG	35	Legislative District 35	Legislative	Legislative District 35	State Representative Pos. 2	24	Tammey Newton	2.0	3121	70329	
+KS	Kittitas	LEG	13	Legislative District 13	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	67829	
+KS	Kittitas	LEG	13	Legislative District 13	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	67829	
+KS	Kittitas	LEG	13	Legislative District 13	Congressional	Congressional District 8	U.S. Representative	6	Jason Ritchie	1.0	2026	67829	
+KS	Kittitas	LEG	13	Legislative District 13	Congressional	Congressional District 8	U.S. Representative	6	Dave Reichert	2.0	5373	67829	
+KS	Kittitas	LEG	13	Legislative District 13	Congressional	Congressional District 8	U.S. Representative	6	Keith Arnold	3.0	643	67829	
+KS	Kittitas	LEG	13	Legislative District 13	Legislative	Legislative District 13	State Senator	304	Judith (Judy) Warnick	1.0	6337	67829	
+KS	Kittitas	LEG	13	Legislative District 13	Legislative	Legislative District 13	State Senator	304	Mohammad Said	2.0	1585	67829	
+KS	Kittitas	LEG	13	Legislative District 13	Legislative	Legislative District 13	State Representative Pos. 1	305	Dannette (Dani) Bolyard	1.0	2346	67829	
+KS	Kittitas	LEG	13	Legislative District 13	Legislative	Legislative District 13	State Representative Pos. 1	305	Tom Dent	2.0	3981	67829	
+KS	Kittitas	LEG	13	Legislative District 13	Legislative	Legislative District 13	State Representative Pos. 2	306	Matt Manweller	1.0	5964	67829	
+KT	Klickitat	LEG	L14	Legislative District 14	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	98528	
+KT	Klickitat	LEG	L14	Legislative District 14	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	98528	
+KT	Klickitat	LEG	L14	Legislative District 14	Congressional	Congressional District 3	U.S. Representative	6	Bob Dingethal	1.0	1691	98528	
+KT	Klickitat	LEG	L14	Legislative District 14	Congressional	Congressional District 3	U.S. Representative	6	Jaime Herrera Beutler	2.0	2772	98528	
+KT	Klickitat	LEG	L14	Legislative District 14	Congressional	Congressional District 3	U.S. Representative	6	Michael Delavar	3.0	889	98528	
+KT	Klickitat	LEG	L14	Legislative District 14	Legislative	Legislative District 14	State Representative Pos. 1	17	Norm Johnson	1.0	4007	98528	
+KT	Klickitat	LEG	L14	Legislative District 14	Legislative	Legislative District 14	State Representative Pos. 2	18	Ben Shoval	1.0	520	98528	
+KT	Klickitat	LEG	L14	Legislative District 14	Legislative	Legislative District 14	State Representative Pos. 2	18	Gina R. McCabe	2.0	2515	98528	
+KT	Klickitat	LEG	L14	Legislative District 14	Legislative	Legislative District 14	State Representative Pos. 2	18	Adam Yoest	3.0	704	98528	
+KT	Klickitat	LEG	L14	Legislative District 14	Legislative	Legislative District 14	State Representative Pos. 2	18	Paul George	4.0	1532	98528	
+LE	Lewis	LEG	LEG19	Legislative District 19	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	98971	
+LE	Lewis	LEG	LEG20	Legislative District 20	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	70919	
+LE	Lewis	LEG	LEG20	Legislative District 20	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	70919	
+LE	Lewis	LEG	LEG19	Legislative District 19	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	98971	
+LE	Lewis	LEG	LEG20	Legislative District 20	Congressional	Congressional District 3	U.S. Representative	6	Bob Dingethal	1.0	2743	70919	
+LE	Lewis	LEG	LEG19	Legislative District 19	Congressional	Congressional District 3	U.S. Representative	6	Bob Dingethal	1.0	311	98971	
+LE	Lewis	LEG	LEG20	Legislative District 20	Congressional	Congressional District 3	U.S. Representative	6	Jaime Herrera Beutler	2.0	8315	70919	
+LE	Lewis	LEG	LEG19	Legislative District 19	Congressional	Congressional District 3	U.S. Representative	6	Jaime Herrera Beutler	2.0	874	98971	
+LE	Lewis	LEG	LEG20	Legislative District 20	Congressional	Congressional District 3	U.S. Representative	6	Michael Delavar	3.0	2030	70919	
+LE	Lewis	LEG	LEG19	Legislative District 19	Congressional	Congressional District 3	U.S. Representative	6	Michael Delavar	3.0	216	98971	
+LE	Lewis	LEG	LEG19	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 1	17	Dean Takko	1.0	595	98971	
+LE	Lewis	LEG	LEG19	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 1	17	David A. Steenson	2.0	559	98971	
+LE	Lewis	LEG	LEG19	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 2	18	Hugh Fleet	1.0	723	98971	
+LE	Lewis	LEG	LEG19	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 2	18	Brian Blake	2.0	450	98971	
+LE	Lewis	LEG	LEG19	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 2	18	James (Jimi) O'Hagan  	3.0	136	98971	
+LE	Lewis	LEG	LEG20	Legislative District 20	Legislative	Legislative District 20	State Representative Pos. 1	20	Richard DeBolt	1.0	9283	70919	
+LE	Lewis	LEG	LEG20	Legislative District 20	Legislative	Legislative District 20	State Representative Pos. 1	20	Michael Savoca	2.0	3139	70919	
+LE	Lewis	LEG	LEG20	Legislative District 20	Legislative	Legislative District 20	State Representative Pos. 2	21	Ed Orcutt	1.0	6516	70919	
+LE	Lewis	LEG	LEG20	Legislative District 20	Legislative	Legislative District 20	State Representative Pos. 2	21	John Morgan	2.0	4000	70919	
+LI	Lincoln	LEG	13	Legislative District 13	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	99607	
+LI	Lincoln	LEG	13	Legislative District 13	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	99607	
+LI	Lincoln	LEG	13	Legislative District 13	Congressional	Congressional District 5	U.S. Representative	6	Cathy McMorris Rodgers	1.0	1924	99607	
+LI	Lincoln	LEG	13	Legislative District 13	Congressional	Congressional District 5	U.S. Representative	6	Dave Wilson	2.0	240	99607	
+LI	Lincoln	LEG	13	Legislative District 13	Congressional	Congressional District 5	U.S. Representative	6	Joseph (Joe) Pakootas	3.0	472	99607	
+LI	Lincoln	LEG	13	Legislative District 13	Congressional	Congressional District 5	U.S. Representative	6	Tom Horne	4.0	314	99607	
+LI	Lincoln	LEG	13	Legislative District 13	Legislative	Legislative District 13	State Senator	16	Judith (Judy) Warnick	1.0	2552	99607	
+LI	Lincoln	LEG	13	Legislative District 13	Legislative	Legislative District 13	State Senator	16	Mohammad Said	2.0	328	99607	
+LI	Lincoln	LEG	13	Legislative District 13	Legislative	Legislative District 13	State Representative Pos. 1	17	Dannette (Dani) Bolyard	1.0	1030	99607	
+LI	Lincoln	LEG	13	Legislative District 13	Legislative	Legislative District 13	State Representative Pos. 1	17	Tom Dent	2.0	1552	99607	
+LI	Lincoln	LEG	13	Legislative District 13	Legislative	Legislative District 13	State Representative Pos. 2	18	Matt Manweller	1.0	2420	99607	
+MA	Mason	LEG	LE035    	Legislative District 35	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	79990	
+MA	Mason	LEG	LE035    	Legislative District 35	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	79990	
+MA	Mason	LEG	LE035    	Legislative District 35	Congressional	Congressional District 6	U.S. Representative	6	Derek Kilmer	1.0	5374	79990	
+MA	Mason	LEG	LE035    	Legislative District 35	Congressional	Congressional District 6	U.S. Representative	6	W. (Greybeard) McPherson	2.0	510	79990	
+MA	Mason	LEG	LE035    	Legislative District 35	Congressional	Congressional District 6	U.S. Representative	6	Marty McClendon	3.0	4268	79990	
+MA	Mason	LEG	LE035    	Legislative District 35	Congressional	Congressional District 6	U.S. Representative	6	Douglas Milholland	4.0	336	79990	
+MA	Mason	LEG	LE035    	Legislative District 35	Congressional	Congressional District 10	U.S. Representative	7	Joyce McDonald	1.0	987	79990	
+MA	Mason	LEG	LE035    	Legislative District 35	Congressional	Congressional District 10	U.S. Representative	7	Denny Heck	2.0	1635	79990	
+MA	Mason	LEG	LE035    	Legislative District 35	Congressional	Congressional District 10	U.S. Representative	7	Sam Wright	3.0	80	79990	
+MA	Mason	LEG	LE035    	Legislative District 35	Congressional	Congressional District 10	U.S. Representative	7	Jennifer Gigi Ferguson	4.0	211	79990	
+MA	Mason	LEG	LE035    	Legislative District 35	Legislative	Legislative District 35	State Senator	17	Irene Bowling	1.0	5181	79990	
+MA	Mason	LEG	LE035    	Legislative District 35	Legislative	Legislative District 35	State Senator	17	Travis Couture	2.0	4159	79990	
+MA	Mason	LEG	LE035    	Legislative District 35	Legislative	Legislative District 35	State Senator	17	Tim Sheldon	3.0	4362	79990	
+MA	Mason	LEG	LE035    	Legislative District 35	Legislative	Legislative District 35	State Representative Pos. 1	18	Kathy Haigh	1.0	6754	79990	
+MA	Mason	LEG	LE035    	Legislative District 35	Legislative	Legislative District 35	State Representative Pos. 1	18	Dan Griffey	2.0	4077	79990	
+MA	Mason	LEG	LE035    	Legislative District 35	Legislative	Legislative District 35	State Representative Pos. 1	18	Josiah Rowell 	3.0	2822	79990	
+MA	Mason	LEG	LE035    	Legislative District 35	Legislative	Legislative District 35	State Representative Pos. 2	19	Drew C. MacEwen	1.0	7208	79990	
+MA	Mason	LEG	LE035    	Legislative District 35	Legislative	Legislative District 35	State Representative Pos. 2	19	Tammey Newton	2.0	6128	79990	
+OK	Okanogan	LEG	07	Legislative District 7	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	68395	
+OK	Okanogan	LEG	12	Legislative District 12	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	68394	
+OK	Okanogan	LEG	12	Legislative District 12	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	68394	
+OK	Okanogan	LEG	07	Legislative District 7	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	68395	
+OK	Okanogan	LEG	12	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	11	Gavin Seim	1.0	43	68394	
+OK	Okanogan	LEG	07	Legislative District 7	Congressional	Congressional District 4	U.S. Representative	11	Gavin Seim	1.0	120	68395	
+OK	Okanogan	LEG	12	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	11	Estakio Beltran	2.0	589	68394	
+OK	Okanogan	LEG	07	Legislative District 7	Congressional	Congressional District 4	U.S. Representative	11	Estakio Beltran	2.0	447	68395	
+OK	Okanogan	LEG	12	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	11	Dan Newhouse	3.0	496	68394	
+OK	Okanogan	LEG	07	Legislative District 7	Congressional	Congressional District 4	U.S. Representative	11	Dan Newhouse	3.0	728	68395	
+OK	Okanogan	LEG	07	Legislative District 7	Congressional	Congressional District 4	U.S. Representative	11	Clint Didier	4.0	1534	68395	
+OK	Okanogan	LEG	12	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	11	Clint Didier	4.0	1025	68394	
+OK	Okanogan	LEG	12	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	11	Josh Ramirez	5.0	58	68394	
+OK	Okanogan	LEG	07	Legislative District 7	Congressional	Congressional District 4	U.S. Representative	11	Josh Ramirez	5.0	74	68395	
+OK	Okanogan	LEG	07	Legislative District 7	Congressional	Congressional District 4	U.S. Representative	11	Gordon Allen Pross	6.0	7	68395	
+OK	Okanogan	LEG	12	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	11	Gordon Allen Pross	6.0	7	68394	
+OK	Okanogan	LEG	12	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	11	Tony Sandoval	7.0	356	68394	
+OK	Okanogan	LEG	07	Legislative District 7	Congressional	Congressional District 4	U.S. Representative	11	Tony Sandoval	7.0	307	68395	
+OK	Okanogan	LEG	07	Legislative District 7	Congressional	Congressional District 4	U.S. Representative	11	Kevin Midbust	8.0	3	68395	
+OK	Okanogan	LEG	12	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	11	Kevin Midbust	8.0	4	68394	
+OK	Okanogan	LEG	12	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	11	Glen R. Stockwell	9.0	27	68394	
+OK	Okanogan	LEG	07	Legislative District 7	Congressional	Congressional District 4	U.S. Representative	11	Glen R. Stockwell	9.0	59	68395	
+OK	Okanogan	LEG	07	Legislative District 7	Congressional	Congressional District 4	U.S. Representative	11	George Cicotte	10.0	104	68395	
+OK	Okanogan	LEG	12	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	11	George Cicotte	10.0	53	68394	
+OK	Okanogan	LEG	12	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	11	Janéa Holmquist	11.0	122	68394	
+OK	Okanogan	LEG	07	Legislative District 7	Congressional	Congressional District 4	U.S. Representative	11	Janéa Holmquist	11.0	164	68395	
+OK	Okanogan	LEG	12	Legislative District 12	Congressional	Congressional District 4	U.S. Representative	11	Richard Wright	12.0	124	68394	
+OK	Okanogan	LEG	07	Legislative District 7	Congressional	Congressional District 4	U.S. Representative	11	Richard Wright	12.0	157	68395	
+OK	Okanogan	LEG	07	Legislative District 7	Legislative	Legislative District 7	State Senator	21	Tony Booth	1.0	847	68395	
+OK	Okanogan	LEG	07	Legislative District 7	Legislative	Legislative District 7	State Senator	21	Brian Dansel	2.0	2292	68395	
+OK	Okanogan	LEG	07	Legislative District 7	Legislative	Legislative District 7	State Representative Pos. 1	22	Shelly Short	1.0	2979	68395	
+OK	Okanogan	LEG	07	Legislative District 7	Legislative	Legislative District 7	State Representative Pos. 1	22	James R. Apker	2.0	528	68395	
+OK	Okanogan	LEG	07	Legislative District 7	Legislative	Legislative District 7	State Representative Pos. 2	23	Joel Kretz	1.0	3156	68395	
+OK	Okanogan	LEG	07	Legislative District 7	Legislative	Legislative District 7	State Representative Pos. 2	23	Ronnie Rae	2.0	463	68395	
+OK	Okanogan	LEG	12	Legislative District 12	Legislative	Legislative District 12	State Representative Pos. 1	25	Cary Condotta	1.0	2060	68394	
+OK	Okanogan	LEG	12	Legislative District 12	Legislative	Legislative District 12	State Representative Pos. 2	26	Brad Hawkins	1.0	2107	68394	
+PA	Pacific	LEG	LE19	Legislative District 19	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	78566	
+PA	Pacific	LEG	LE19	Legislative District 19	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	78566	
+PA	Pacific	LEG	LE19	Legislative District 19	Congressional	Congressional District 3	U.S. Representative	6	Bob Dingethal	1.0	2451	78566	
+PA	Pacific	LEG	LE19	Legislative District 19	Congressional	Congressional District 3	U.S. Representative	6	Jaime Herrera Beutler	2.0	2637	78566	
+PA	Pacific	LEG	LE19	Legislative District 19	Congressional	Congressional District 3	U.S. Representative	6	Michael Delavar	3.0	508	78566	
+PA	Pacific	LEG	LE19	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 1	17	Dean Takko	1.0	3905	78566	
+PA	Pacific	LEG	LE19	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 1	17	David A. Steenson	2.0	1417	78566	
+PA	Pacific	LEG	LE19	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 2	18	Hugh Fleet	1.0	1612	78566	
+PA	Pacific	LEG	LE19	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 2	18	Brian Blake	2.0	3467	78566	
+PA	Pacific	LEG	LE19	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 2	18	James (Jimi) O'Hagan  	3.0	483	78566	
+PE	Pend Oreille	LEG	LE007    	Legislative District 7	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	77335	
+PE	Pend Oreille	LEG	LE007    	Legislative District 7	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	77335	
+PE	Pend Oreille	LEG	LE007    	Legislative District 7	Congressional	Congressional District 5	U.S. Representative	6	Cathy McMorris Rodgers	1.0	1692	77335	
+PE	Pend Oreille	LEG	LE007    	Legislative District 7	Congressional	Congressional District 5	U.S. Representative	6	Dave Wilson	2.0	318	77335	
+PE	Pend Oreille	LEG	LE007    	Legislative District 7	Congressional	Congressional District 5	U.S. Representative	6	Joseph (Joe) Pakootas	3.0	1025	77335	
+PE	Pend Oreille	LEG	LE007    	Legislative District 7	Congressional	Congressional District 5	U.S. Representative	6	Tom Horne	4.0	316	77335	
+PE	Pend Oreille	LEG	LE007    	Legislative District 7	Legislative	Legislative District 7	State Senator	16	Tony Booth	1.0	1006	77335	
+PE	Pend Oreille	LEG	LE007    	Legislative District 7	Legislative	Legislative District 7	State Senator	16	Brian Dansel	2.0	1639	77335	
+PE	Pend Oreille	LEG	LE007    	Legislative District 7	Legislative	Legislative District 7	State Representative Pos. 1	17	Shelly Short	1.0	2286	77335	
+PE	Pend Oreille	LEG	LE007    	Legislative District 7	Legislative	Legislative District 7	State Representative Pos. 1	17	James R. Apker	2.0	657	77335	
+PE	Pend Oreille	LEG	LE007    	Legislative District 7	Legislative	Legislative District 7	State Representative Pos. 2	18	Joel Kretz	1.0	2441	77335	
+PE	Pend Oreille	LEG	LE007    	Legislative District 7	Legislative	Legislative District 7	State Representative Pos. 2	18	Ronnie Rae	2.0	491	77335	
+PI	Pierce	LEG	27	Legislative District 27	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	76555	
+PI	Pierce	LEG	25	Legislative District 25	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	76553	
+PI	Pierce	LEG	29	Legislative District 29	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	76557	
+PI	Pierce	LEG	30	Legislative District 30	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	91390	
+PI	Pierce	LEG	2	Legislative District 2	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	76552	
+PI	Pierce	LEG	26	Legislative District 26	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	76554	
+PI	Pierce	LEG	28	Legislative District 28	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	76556	
+PI	Pierce	LEG	31	Legislative District 31	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	76558	
+PI	Pierce	LEG	29	Legislative District 29	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	76557	
+PI	Pierce	LEG	30	Legislative District 30	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	91390	
+PI	Pierce	LEG	31	Legislative District 31	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	76558	
+PI	Pierce	LEG	2	Legislative District 2	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	76552	
+PI	Pierce	LEG	26	Legislative District 26	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	76554	
+PI	Pierce	LEG	25	Legislative District 25	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	76553	
+PI	Pierce	LEG	28	Legislative District 28	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	76556	
+PI	Pierce	LEG	27	Legislative District 27	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	76555	
+PI	Pierce	LEG	28	Legislative District 28	Congressional	Congressional District 6	U.S. Representative	6	Derek Kilmer	1.0	1733	76556	
+PI	Pierce	LEG	27	Legislative District 27	Congressional	Congressional District 6	U.S. Representative	6	Derek Kilmer	1.0	8609	76555	
+PI	Pierce	LEG	29	Legislative District 29	Congressional	Congressional District 6	U.S. Representative	6	Derek Kilmer	1.0	1987	76557	
+PI	Pierce	LEG	26	Legislative District 26	Congressional	Congressional District 6	U.S. Representative	6	Derek Kilmer	1.0	11584	76554	
+PI	Pierce	LEG	28	Legislative District 28	Congressional	Congressional District 6	U.S. Representative	6	W. (Greybeard) McPherson	2.0	64	76556	
+PI	Pierce	LEG	29	Legislative District 29	Congressional	Congressional District 6	U.S. Representative	6	W. (Greybeard) McPherson	2.0	162	76557	
+PI	Pierce	LEG	26	Legislative District 26	Congressional	Congressional District 6	U.S. Representative	6	W. (Greybeard) McPherson	2.0	384	76554	
+PI	Pierce	LEG	27	Legislative District 27	Congressional	Congressional District 6	U.S. Representative	6	W. (Greybeard) McPherson	2.0	398	76555	
+PI	Pierce	LEG	27	Legislative District 27	Congressional	Congressional District 6	U.S. Representative	6	Marty McClendon	3.0	2869	76555	
+PI	Pierce	LEG	26	Legislative District 26	Congressional	Congressional District 6	U.S. Representative	6	Marty McClendon	3.0	7485	76554	
+PI	Pierce	LEG	29	Legislative District 29	Congressional	Congressional District 6	U.S. Representative	6	Marty McClendon	3.0	908	76557	
+PI	Pierce	LEG	28	Legislative District 28	Congressional	Congressional District 6	U.S. Representative	6	Marty McClendon	3.0	865	76556	
+PI	Pierce	LEG	29	Legislative District 29	Congressional	Congressional District 6	U.S. Representative	6	Douglas Milholland	4.0	114	76557	
+PI	Pierce	LEG	26	Legislative District 26	Congressional	Congressional District 6	U.S. Representative	6	Douglas Milholland	4.0	313	76554	
+PI	Pierce	LEG	28	Legislative District 28	Congressional	Congressional District 6	U.S. Representative	6	Douglas Milholland	4.0	56	76556	
+PI	Pierce	LEG	27	Legislative District 27	Congressional	Congressional District 6	U.S. Representative	6	Douglas Milholland	4.0	493	76555	
+PI	Pierce	LEG	31	Legislative District 31	Congressional	Congressional District 8	U.S. Representative	7	Jason Ritchie	1.0	2827	76558	
+PI	Pierce	LEG	25	Legislative District 25	Congressional	Congressional District 8	U.S. Representative	7	Jason Ritchie	1.0	511	76553	
+PI	Pierce	LEG	28	Legislative District 28	Congressional	Congressional District 8	U.S. Representative	7	Jason Ritchie	1.0	291	76556	
+PI	Pierce	LEG	30	Legislative District 30	Congressional	Congressional District 8	U.S. Representative	7	Jason Ritchie	1.0	301	91390	
+PI	Pierce	LEG	2	Legislative District 2	Congressional	Congressional District 8	U.S. Representative	7	Jason Ritchie	1.0	1837	76552	
+PI	Pierce	LEG	31	Legislative District 31	Congressional	Congressional District 8	U.S. Representative	7	Dave Reichert	2.0	6830	76558	
+PI	Pierce	LEG	25	Legislative District 25	Congressional	Congressional District 8	U.S. Representative	7	Dave Reichert	2.0	1169	76553	
+PI	Pierce	LEG	30	Legislative District 30	Congressional	Congressional District 8	U.S. Representative	7	Dave Reichert	2.0	548	91390	
+PI	Pierce	LEG	2	Legislative District 2	Congressional	Congressional District 8	U.S. Representative	7	Dave Reichert	2.0	4699	76552	
+PI	Pierce	LEG	28	Legislative District 28	Congressional	Congressional District 8	U.S. Representative	7	Dave Reichert	2.0	713	76556	
+PI	Pierce	LEG	31	Legislative District 31	Congressional	Congressional District 8	U.S. Representative	7	Keith Arnold	3.0	1061	76558	
+PI	Pierce	LEG	28	Legislative District 28	Congressional	Congressional District 8	U.S. Representative	7	Keith Arnold	3.0	130	76556	
+PI	Pierce	LEG	25	Legislative District 25	Congressional	Congressional District 8	U.S. Representative	7	Keith Arnold	3.0	162	76553	
+PI	Pierce	LEG	30	Legislative District 30	Congressional	Congressional District 8	U.S. Representative	7	Keith Arnold	3.0	98	91390	
+PI	Pierce	LEG	2	Legislative District 2	Congressional	Congressional District 8	U.S. Representative	7	Keith Arnold	3.0	583	76552	
+PI	Pierce	LEG	27	Legislative District 27	Congressional	Congressional District 9	U.S. Representative	8	Adam Smith	1.0	1814	76555	
+PI	Pierce	LEG	27	Legislative District 27	Congressional	Congressional District 9	U.S. Representative	8	Don Rivers	2.0	109	76555	
+PI	Pierce	LEG	27	Legislative District 27	Congressional	Congressional District 9	U.S. Representative	8	Mark Greene	3.0	93	76555	
+PI	Pierce	LEG	27	Legislative District 27	Congressional	Congressional District 9	U.S. Representative	8	Doug Basler	4.0	1068	76555	
+PI	Pierce	LEG	30	Legislative District 30	Congressional	Congressional District 10	U.S. Representative	9	Joyce McDonald	1.0	0	91390	
+PI	Pierce	LEG	2	Legislative District 2	Congressional	Congressional District 10	U.S. Representative	9	Joyce McDonald	1.0	1943	76552	
+PI	Pierce	LEG	28	Legislative District 28	Congressional	Congressional District 10	U.S. Representative	9	Joyce McDonald	1.0	9077	76556	
+PI	Pierce	LEG	25	Legislative District 25	Congressional	Congressional District 10	U.S. Representative	9	Joyce McDonald	1.0	8517	76553	
+PI	Pierce	LEG	31	Legislative District 31	Congressional	Congressional District 10	U.S. Representative	9	Joyce McDonald	1.0	1771	76558	
+PI	Pierce	LEG	29	Legislative District 29	Congressional	Congressional District 10	U.S. Representative	9	Joyce McDonald	1.0	3153	76557	
+PI	Pierce	LEG	27	Legislative District 27	Congressional	Congressional District 10	U.S. Representative	9	Joyce McDonald	1.0	608	76555	
+PI	Pierce	LEG	29	Legislative District 29	Congressional	Congressional District 10	U.S. Representative	9	Denny Heck	2.0	3899	76557	
+PI	Pierce	LEG	2	Legislative District 2	Congressional	Congressional District 10	U.S. Representative	9	Denny Heck	2.0	1281	76552	
+PI	Pierce	LEG	30	Legislative District 30	Congressional	Congressional District 10	U.S. Representative	9	Denny Heck	2.0	0	91390	
+PI	Pierce	LEG	31	Legislative District 31	Congressional	Congressional District 10	U.S. Representative	9	Denny Heck	2.0	1602	76558	
+PI	Pierce	LEG	25	Legislative District 25	Congressional	Congressional District 10	U.S. Representative	9	Denny Heck	2.0	7164	76553	
+PI	Pierce	LEG	28	Legislative District 28	Congressional	Congressional District 10	U.S. Representative	9	Denny Heck	2.0	8841	76556	
+PI	Pierce	LEG	27	Legislative District 27	Congressional	Congressional District 10	U.S. Representative	9	Denny Heck	2.0	1204	76555	
+PI	Pierce	LEG	2	Legislative District 2	Congressional	Congressional District 10	U.S. Representative	9	Sam Wright	3.0	112	76552	
+PI	Pierce	LEG	28	Legislative District 28	Congressional	Congressional District 10	U.S. Representative	9	Sam Wright	3.0	311	76556	
+PI	Pierce	LEG	25	Legislative District 25	Congressional	Congressional District 10	U.S. Representative	9	Sam Wright	3.0	285	76553	
+PI	Pierce	LEG	30	Legislative District 30	Congressional	Congressional District 10	U.S. Representative	9	Sam Wright	3.0	0	91390	
+PI	Pierce	LEG	27	Legislative District 27	Congressional	Congressional District 10	U.S. Representative	9	Sam Wright	3.0	92	76555	
+PI	Pierce	LEG	29	Legislative District 29	Congressional	Congressional District 10	U.S. Representative	9	Sam Wright	3.0	206	76557	
+PI	Pierce	LEG	31	Legislative District 31	Congressional	Congressional District 10	U.S. Representative	9	Sam Wright	3.0	76	76558	
+PI	Pierce	LEG	27	Legislative District 27	Congressional	Congressional District 10	U.S. Representative	9	Jennifer Gigi Ferguson	4.0	166	76555	
+PI	Pierce	LEG	30	Legislative District 30	Congressional	Congressional District 10	U.S. Representative	9	Jennifer Gigi Ferguson	4.0	3	91390	
+PI	Pierce	LEG	25	Legislative District 25	Congressional	Congressional District 10	U.S. Representative	9	Jennifer Gigi Ferguson	4.0	726	76553	
+PI	Pierce	LEG	31	Legislative District 31	Congressional	Congressional District 10	U.S. Representative	9	Jennifer Gigi Ferguson	4.0	159	76558	
+PI	Pierce	LEG	29	Legislative District 29	Congressional	Congressional District 10	U.S. Representative	9	Jennifer Gigi Ferguson	4.0	470	76557	
+PI	Pierce	LEG	2	Legislative District 2	Congressional	Congressional District 10	U.S. Representative	9	Jennifer Gigi Ferguson	4.0	202	76552	
+PI	Pierce	LEG	28	Legislative District 28	Congressional	Congressional District 10	U.S. Representative	9	Jennifer Gigi Ferguson	4.0	919	76556	
+PI	Pierce	LEG	2	Legislative District 2	Legislative	Legislative District 2	State Representative Pos. 1	20	Graham Hunt	1.0	6959	76552	
+PI	Pierce	LEG	2	Legislative District 2	Legislative	Legislative District 2	State Representative Pos. 1	20	Greg Hartman	2.0	3817	76552	
+PI	Pierce	LEG	2	Legislative District 2	Legislative	Legislative District 2	State Representative Pos. 2	21	J.T. Wilcox	1.0	7605	76552	
+PI	Pierce	LEG	2	Legislative District 2	Legislative	Legislative District 2	State Representative Pos. 2	21	Steven Nielson	2.0	1946	76552	
+PI	Pierce	LEG	2	Legislative District 2	Legislative	Legislative District 2	State Representative Pos. 2	21	Rick Payne	3.0	898	76552	
+PI	Pierce	LEG	25	Legislative District 25	Legislative	Legislative District 25	State Representative Pos. 1	23	Dawn Morrell	1.0	9717	76553	
+PI	Pierce	LEG	25	Legislative District 25	Legislative	Legislative District 25	State Representative Pos. 1	23	Melanie Stambaugh	2.0	9266	76553	
+PI	Pierce	LEG	25	Legislative District 25	Legislative	Legislative District 25	State Representative Pos. 2	24	Hans Zeiger	1.0	11706	76553	
+PI	Pierce	LEG	25	Legislative District 25	Legislative	Legislative District 25	State Representative Pos. 2	24	Eric Renz	2.0	7031	76553	
+PI	Pierce	LEG	26	Legislative District 26	Legislative	Legislative District 26	State Senator	25	Judy Arbogast	1.0	8618	76554	
+PI	Pierce	LEG	26	Legislative District 26	Legislative	Legislative District 26	State Senator	25	Jan Angel	2.0	11448	76554	
+PI	Pierce	LEG	26	Legislative District 26	Legislative	Legislative District 26	State Representative Pos. 1	26	Bill Scheidler	1.0	2712	76554	
+PI	Pierce	LEG	26	Legislative District 26	Legislative	Legislative District 26	State Representative Pos. 1	26	Jesse Young	2.0	7792	76554	
+PI	Pierce	LEG	26	Legislative District 26	Legislative	Legislative District 26	State Representative Pos. 1	26	Nathan Schlicher	3.0	9208	76554	
+PI	Pierce	LEG	26	Legislative District 26	Legislative	Legislative District 26	State Representative Pos. 2	27	Michelle Caldier	1.0	9636	76554	
+PI	Pierce	LEG	26	Legislative District 26	Legislative	Legislative District 26	State Representative Pos. 2	27	Larry Seaquist	2.0	10203	76554	
+PI	Pierce	LEG	27	Legislative District 27	Legislative	Legislative District 27	State Representative Pos. 1	29	Laurie Jinkins	1.0	12156	76555	
+PI	Pierce	LEG	27	Legislative District 27	Legislative	Legislative District 27	State Representative Pos. 1	29	Robert Hill	2.0	655	76555	
+PI	Pierce	LEG	27	Legislative District 27	Legislative	Legislative District 27	State Representative Pos. 1	29	Rodger Deskins	3.0	5067	76555	
+PI	Pierce	LEG	27	Legislative District 27	Legislative	Legislative District 27	State Representative Pos. 2	30	Jake Fey	1.0	12223	76555	
+PI	Pierce	LEG	27	Legislative District 27	Legislative	Legislative District 27	State Representative Pos. 2	30	Micah J. Anderson	2.0	714	76555	
+PI	Pierce	LEG	27	Legislative District 27	Legislative	Legislative District 27	State Representative Pos. 2	30	Steven T. Cook	3.0	4965	76555	
+PI	Pierce	LEG	28	Legislative District 28	Legislative	Legislative District 28	State Senator	31	Steve O'Ban	1.0	13306	76556	
+PI	Pierce	LEG	28	Legislative District 28	Legislative	Legislative District 28	State Senator	31	Tami Green	2.0	10356	76556	
+PI	Pierce	LEG	28	Legislative District 28	Legislative	Legislative District 28	State Representative Pos. 1	32	Richard (Dick) Muri	1.0	13693	76556	
+PI	Pierce	LEG	28	Legislative District 28	Legislative	Legislative District 28	State Representative Pos. 1	32	Mary Moss	2.0	9587	76556	
+PI	Pierce	LEG	28	Legislative District 28	Legislative	Legislative District 28	State Representative Pos. 2	33	Paul Wagemann	1.0	6383	76556	
+PI	Pierce	LEG	28	Legislative District 28	Legislative	Legislative District 28	State Representative Pos. 2	33	Christine Kilduff	2.0	7341	76556	
+PI	Pierce	LEG	28	Legislative District 28	Legislative	Legislative District 28	State Representative Pos. 2	33	Monique Valenzuela Trudnowski	3.0	5936	76556	
+PI	Pierce	LEG	28	Legislative District 28	Legislative	Legislative District 28	State Representative Pos. 2	33	Kevin Heiderich	4.0	682	76556	
+PI	Pierce	LEG	28	Legislative District 28	Legislative	Legislative District 28	State Representative Pos. 2	33	John Connelly	5.0	2886	76556	
+PI	Pierce	LEG	29	Legislative District 29	Legislative	Legislative District 29	State Senator	34	Steve Conway	1.0	7078	76557	
+PI	Pierce	LEG	29	Legislative District 29	Legislative	Legislative District 29	State Senator	34	Terry Harder	2.0	4240	76557	
+PI	Pierce	LEG	29	Legislative District 29	Legislative	Legislative District 29	State Representative Pos. 1	35	David Sawyer	1.0	6631	76557	
+PI	Pierce	LEG	29	Legislative District 29	Legislative	Legislative District 29	State Representative Pos. 1	35	Jason Bergstrom	2.0	4580	76557	
+PI	Pierce	LEG	29	Legislative District 29	Legislative	Legislative District 29	State Representative Pos. 2	36	Steve Kirby	1.0	8748	76557	
+PI	Pierce	LEG	30	Legislative District 30	Legislative	Legislative District 30	State Senator	37	Mark Miloscia	1.0	556	91390	
+PI	Pierce	LEG	30	Legislative District 30	Legislative	Legislative District 30	State Senator	37	Shari Song	2.0	434	91390	
+PI	Pierce	LEG	30	Legislative District 30	Legislative	Legislative District 30	State Representative Pos. 1	38	Linda Kochmar	1.0	573	91390	
+PI	Pierce	LEG	30	Legislative District 30	Legislative	Legislative District 30	State Representative Pos. 1	38	Greg Baruso	2.0	408	91390	
+PI	Pierce	LEG	30	Legislative District 30	Legislative	Legislative District 30	State Representative Pos. 2	39	Jack Dovey	1.0	469	91390	
+PI	Pierce	LEG	30	Legislative District 30	Legislative	Legislative District 30	State Representative Pos. 2	39	Roger Freeman	2.0	511	91390	
+PI	Pierce	LEG	31	Legislative District 31	Legislative	Legislative District 31	State Senator	40	Cathy Dahlquist	1.0	5557	76558	
+PI	Pierce	LEG	31	Legislative District 31	Legislative	Legislative District 31	State Senator	40	Pam Roach	2.0	6039	76558	
+PI	Pierce	LEG	31	Legislative District 31	Legislative	Legislative District 31	State Senator	40	Lynda Messner	3.0	3194	76558	
+PI	Pierce	LEG	31	Legislative District 31	Legislative	Legislative District 31	State Representative Pos. 1	41	Drew Stokesbary	1.0	7567	76558	
+PI	Pierce	LEG	31	Legislative District 31	Legislative	Legislative District 31	State Representative Pos. 1	41	Jonathon Dunn	2.0	2484	76558	
+PI	Pierce	LEG	31	Legislative District 31	Legislative	Legislative District 31	State Representative Pos. 1	41	Mike Sando	3.0	4424	76558	
+PI	Pierce	LEG	31	Legislative District 31	Legislative	Legislative District 31	State Representative Pos. 2	42	Christopher Hurst	1.0	7849	76558	
+PI	Pierce	LEG	31	Legislative District 31	Legislative	Legislative District 31	State Representative Pos. 2	42	Phil Fortunato	2.0	6588	76558	
+SJ	San Juan	LEG	LEG 40	Legislative District 40	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	71347	
+SJ	San Juan	LEG	LEG 40	Legislative District 40	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	71347	
+SJ	San Juan	LEG	LEG 40	Legislative District 40	Congressional	Congressional District 2	U.S. Representative	6	Mike Lapointe	1.0	1098	71347	
+SJ	San Juan	LEG	LEG 40	Legislative District 40	Congressional	Congressional District 2	U.S. Representative	6	Rick Larsen	2.0	2733	71347	
+SJ	San Juan	LEG	LEG 40	Legislative District 40	Congressional	Congressional District 2	U.S. Representative	6	B.J. Guillot	3.0	1084	71347	
+SJ	San Juan	LEG	LEG 40	Legislative District 40	Legislative	Legislative District 40	State Representative Pos. 1	17	Kristine Lytton	1.0	3372	71347	
+SJ	San Juan	LEG	LEG 40	Legislative District 40	Legislative	Legislative District 40	State Representative Pos. 1	17	Daniel R. Miller	2.0	1335	71347	
+SJ	San Juan	LEG	LEG 40	Legislative District 40	Legislative	Legislative District 40	State Representative Pos. 2	18	Jeff Morris	1.0	3612	71347	
+SK	Skagit	LEG	L40	Legislative District 40	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	68587	
+SK	Skagit	LEG	L39	Legislative District 39	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	68586	
+SK	Skagit	LEG	L10	Legislative District 10	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	68585	
+SK	Skagit	LEG	L40	Legislative District 40	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	68587	
+SK	Skagit	LEG	L39	Legislative District 39	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	68586	
+SK	Skagit	LEG	L10	Legislative District 10	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	68585	
+SK	Skagit	LEG	L40	Legislative District 40	Congressional	Congressional District 1	U.S. Representative	6	John Orlinski	1.0	380	68587	
+SK	Skagit	LEG	L10	Legislative District 10	Congressional	Congressional District 1	U.S. Representative	6	John Orlinski	1.0	469	68585	
+SK	Skagit	LEG	L39	Legislative District 39	Congressional	Congressional District 1	U.S. Representative	6	John Orlinski	1.0	385	68586	
+SK	Skagit	LEG	L10	Legislative District 10	Congressional	Congressional District 1	U.S. Representative	6	Suzan DelBene	2.0	1615	68585	
+SK	Skagit	LEG	L40	Legislative District 40	Congressional	Congressional District 1	U.S. Representative	6	Suzan DelBene	2.0	1419	68587	
+SK	Skagit	LEG	L39	Legislative District 39	Congressional	Congressional District 1	U.S. Representative	6	Suzan DelBene	2.0	1251	68586	
+SK	Skagit	LEG	L10	Legislative District 10	Congressional	Congressional District 1	U.S. Representative	6	Mike The Mover	3.0	29	68585	
+SK	Skagit	LEG	L40	Legislative District 40	Congressional	Congressional District 1	U.S. Representative	6	Mike The Mover	3.0	38	68587	
+SK	Skagit	LEG	L39	Legislative District 39	Congressional	Congressional District 1	U.S. Representative	6	Mike The Mover	3.0	36	68586	
+SK	Skagit	LEG	L40	Legislative District 40	Congressional	Congressional District 1	U.S. Representative	6	Edwin F. Moats	4.0	76	68587	
+SK	Skagit	LEG	L10	Legislative District 10	Congressional	Congressional District 1	U.S. Representative	6	Edwin F. Moats	4.0	111	68585	
+SK	Skagit	LEG	L39	Legislative District 39	Congressional	Congressional District 1	U.S. Representative	6	Edwin F. Moats	4.0	92	68586	
+SK	Skagit	LEG	L39	Legislative District 39	Congressional	Congressional District 1	U.S. Representative	6	Pedro Celis	5.0	186	68586	
+SK	Skagit	LEG	L10	Legislative District 10	Congressional	Congressional District 1	U.S. Representative	6	Pedro Celis	5.0	296	68585	
+SK	Skagit	LEG	L40	Legislative District 40	Congressional	Congressional District 1	U.S. Representative	6	Pedro Celis	5.0	200	68587	
+SK	Skagit	LEG	L39	Legislative District 39	Congressional	Congressional District 1	U.S. Representative	6	Robert J. Sutherland	6.0	364	68586	
+SK	Skagit	LEG	L10	Legislative District 10	Congressional	Congressional District 1	U.S. Representative	6	Robert J. Sutherland	6.0	412	68585	
+SK	Skagit	LEG	L40	Legislative District 40	Congressional	Congressional District 1	U.S. Representative	6	Robert J. Sutherland	6.0	364	68587	
+SK	Skagit	LEG	L39	Legislative District 39	Congressional	Congressional District 1	U.S. Representative	6	Richard J. Todd	7.0	104	68586	
+SK	Skagit	LEG	L40	Legislative District 40	Congressional	Congressional District 1	U.S. Representative	6	Richard J. Todd	7.0	74	68587	
+SK	Skagit	LEG	L10	Legislative District 10	Congressional	Congressional District 1	U.S. Representative	6	Richard J. Todd	7.0	83	68585	
+SK	Skagit	LEG	L39	Legislative District 39	Congressional	Congressional District 2	U.S. Representative	7	Mike Lapointe	1.0	242	68586	
+SK	Skagit	LEG	L10	Legislative District 10	Congressional	Congressional District 2	U.S. Representative	7	Mike Lapointe	1.0	333	68585	
+SK	Skagit	LEG	L40	Legislative District 40	Congressional	Congressional District 2	U.S. Representative	7	Mike Lapointe	1.0	750	68587	
+SK	Skagit	LEG	L10	Legislative District 10	Congressional	Congressional District 2	U.S. Representative	7	Rick Larsen	2.0	2154	68585	
+SK	Skagit	LEG	L39	Legislative District 39	Congressional	Congressional District 2	U.S. Representative	7	Rick Larsen	2.0	1421	68586	
+SK	Skagit	LEG	L40	Legislative District 40	Congressional	Congressional District 2	U.S. Representative	7	Rick Larsen	2.0	4720	68587	
+SK	Skagit	LEG	L10	Legislative District 10	Congressional	Congressional District 2	U.S. Representative	7	B.J. Guillot	3.0	1590	68585	
+SK	Skagit	LEG	L39	Legislative District 39	Congressional	Congressional District 2	U.S. Representative	7	B.J. Guillot	3.0	943	68586	
+SK	Skagit	LEG	L40	Legislative District 40	Congressional	Congressional District 2	U.S. Representative	7	B.J. Guillot	3.0	2891	68587	
+SK	Skagit	LEG	L10	Legislative District 10	Legislative	Legislative District 10	State Representative Pos. 1	18	Norma Smith	1.0	4818	68585	
+SK	Skagit	LEG	L10	Legislative District 10	Legislative	Legislative District 10	State Representative Pos. 1	18	Michael Scott	2.0	1289	68585	
+SK	Skagit	LEG	L10	Legislative District 10	Legislative	Legislative District 10	State Representative Pos. 2	19	Dave Hayes	1.0	3141	68585	
+SK	Skagit	LEG	L10	Legislative District 10	Legislative	Legislative District 10	State Representative Pos. 2	19	David Sponheim	2.0	822	68585	
+SK	Skagit	LEG	L10	Legislative District 10	Legislative	Legislative District 10	State Representative Pos. 2	19	Nick Petrish	3.0	2197	68585	
+SK	Skagit	LEG	L10	Legislative District 10	Legislative	Legislative District 10	State Representative Pos. 2	19	Brien Lillquist	4.0	575	68585	
+SK	Skagit	LEG	L39	Legislative District 39	Legislative	Legislative District 39	State Representative Pos. 1	21	Dan Kristiansen	1.0	3669	68586	
+SK	Skagit	LEG	L39	Legislative District 39	Legislative	Legislative District 39	State Representative Pos. 2	22	Charles Jensen	1.0	2184	68586	
+SK	Skagit	LEG	L39	Legislative District 39	Legislative	Legislative District 39	State Representative Pos. 2	22	Elizabeth Scott	2.0	2820	68586	
+SK	Skagit	LEG	L40	Legislative District 40	Legislative	Legislative District 40	State Representative Pos. 1	24	Kristine Lytton	1.0	6086	68587	
+SK	Skagit	LEG	L40	Legislative District 40	Legislative	Legislative District 40	State Representative Pos. 1	24	Daniel R. Miller	2.0	4630	68587	
+SK	Skagit	LEG	L40	Legislative District 40	Legislative	Legislative District 40	State Representative Pos. 2	25	Jeff Morris	1.0	7511	68587	
+SM	Skamania	LEG	014	Legislative District 14	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	98811	
+SM	Skamania	LEG	014	Legislative District 14	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	98811	
+SM	Skamania	LEG	014	Legislative District 14	Congressional	Congressional District 3	U.S. Representative	6	Bob Dingethal	1.0	868	98811	
+SM	Skamania	LEG	014	Legislative District 14	Congressional	Congressional District 3	U.S. Representative	6	Jaime Herrera Beutler	2.0	1214	98811	
+SM	Skamania	LEG	014	Legislative District 14	Congressional	Congressional District 3	U.S. Representative	6	Michael Delavar	3.0	359	98811	
+SM	Skamania	LEG	014	Legislative District 14	Legislative	Legislative District 14	State Representative Pos. 1	17	Norm Johnson	1.0	1637	98811	
+SM	Skamania	LEG	014	Legislative District 14	Legislative	Legislative District 14	State Representative Pos. 2	18	Ben Shoval	1.0	260	98811	
+SM	Skamania	LEG	014	Legislative District 14	Legislative	Legislative District 14	State Representative Pos. 2	18	Gina R. McCabe	2.0	788	98811	
+SM	Skamania	LEG	014	Legislative District 14	Legislative	Legislative District 14	State Representative Pos. 2	18	Adam Yoest	3.0	276	98811	
+SM	Skamania	LEG	014	Legislative District 14	Legislative	Legislative District 14	State Representative Pos. 2	18	Paul George	4.0	916	98811	
+SN	Snohomish	LEG	10	Legislative District 10	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	75884	
+SN	Snohomish	LEG	32	Legislative District 32	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	75886	
+SN	Snohomish	LEG	1	Legislative District 1	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	75883	
+SN	Snohomish	LEG	21	Legislative District 21	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	75885	
+SN	Snohomish	LEG	39	Legislative District 39	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	75888	
+SN	Snohomish	LEG	44	Legislative District 44	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	75889	
+SN	Snohomish	LEG	38	Legislative District 38	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	75887	
+SN	Snohomish	LEG	10	Legislative District 10	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	75884	
+SN	Snohomish	LEG	38	Legislative District 38	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	75887	
+SN	Snohomish	LEG	44	Legislative District 44	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	75889	
+SN	Snohomish	LEG	32	Legislative District 32	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	75886	
+SN	Snohomish	LEG	39	Legislative District 39	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	75888	
+SN	Snohomish	LEG	1	Legislative District 1	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	75883	
+SN	Snohomish	LEG	21	Legislative District 21	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	75885	
+SN	Snohomish	LEG	39	Legislative District 39	Congressional	Congressional District 1	U.S. Representative	6	John Orlinski	1.0	1442	75888	
+SN	Snohomish	LEG	10	Legislative District 10	Congressional	Congressional District 1	U.S. Representative	6	John Orlinski	1.0	108	75884	
+SN	Snohomish	LEG	44	Legislative District 44	Congressional	Congressional District 1	U.S. Representative	6	John Orlinski	1.0	2459	75889	
+SN	Snohomish	LEG	1	Legislative District 1	Congressional	Congressional District 1	U.S. Representative	6	John Orlinski	1.0	1059	75883	
+SN	Snohomish	LEG	10	Legislative District 10	Congressional	Congressional District 1	U.S. Representative	6	Suzan DelBene	2.0	329	75884	
+SN	Snohomish	LEG	44	Legislative District 44	Congressional	Congressional District 1	U.S. Representative	6	Suzan DelBene	2.0	9390	75889	
+SN	Snohomish	LEG	1	Legislative District 1	Congressional	Congressional District 1	U.S. Representative	6	Suzan DelBene	2.0	4252	75883	
+SN	Snohomish	LEG	39	Legislative District 39	Congressional	Congressional District 1	U.S. Representative	6	Suzan DelBene	2.0	5695	75888	
+SN	Snohomish	LEG	1	Legislative District 1	Congressional	Congressional District 1	U.S. Representative	6	Mike The Mover	3.0	91	75883	
+SN	Snohomish	LEG	44	Legislative District 44	Congressional	Congressional District 1	U.S. Representative	6	Mike The Mover	3.0	256	75889	
+SN	Snohomish	LEG	10	Legislative District 10	Congressional	Congressional District 1	U.S. Representative	6	Mike The Mover	3.0	10	75884	
+SN	Snohomish	LEG	39	Legislative District 39	Congressional	Congressional District 1	U.S. Representative	6	Mike The Mover	3.0	205	75888	
+SN	Snohomish	LEG	1	Legislative District 1	Congressional	Congressional District 1	U.S. Representative	6	Edwin F. Moats	4.0	475	75883	
+SN	Snohomish	LEG	10	Legislative District 10	Congressional	Congressional District 1	U.S. Representative	6	Edwin F. Moats	4.0	75	75884	
+SN	Snohomish	LEG	39	Legislative District 39	Congressional	Congressional District 1	U.S. Representative	6	Edwin F. Moats	4.0	851	75888	
+SN	Snohomish	LEG	44	Legislative District 44	Congressional	Congressional District 1	U.S. Representative	6	Edwin F. Moats	4.0	925	75889	
+SN	Snohomish	LEG	10	Legislative District 10	Congressional	Congressional District 1	U.S. Representative	6	Pedro Celis	5.0	69	75884	
+SN	Snohomish	LEG	39	Legislative District 39	Congressional	Congressional District 1	U.S. Representative	6	Pedro Celis	5.0	1431	75888	
+SN	Snohomish	LEG	1	Legislative District 1	Congressional	Congressional District 1	U.S. Representative	6	Pedro Celis	5.0	1100	75883	
+SN	Snohomish	LEG	44	Legislative District 44	Congressional	Congressional District 1	U.S. Representative	6	Pedro Celis	5.0	2345	75889	
+SN	Snohomish	LEG	44	Legislative District 44	Congressional	Congressional District 1	U.S. Representative	6	Robert J. Sutherland	6.0	3215	75889	
+SN	Snohomish	LEG	39	Legislative District 39	Congressional	Congressional District 1	U.S. Representative	6	Robert J. Sutherland	6.0	2204	75888	
+SN	Snohomish	LEG	1	Legislative District 1	Congressional	Congressional District 1	U.S. Representative	6	Robert J. Sutherland	6.0	1303	75883	
+SN	Snohomish	LEG	10	Legislative District 10	Congressional	Congressional District 1	U.S. Representative	6	Robert J. Sutherland	6.0	174	75884	
+SN	Snohomish	LEG	10	Legislative District 10	Congressional	Congressional District 1	U.S. Representative	6	Richard J. Todd	7.0	16	75884	
+SN	Snohomish	LEG	44	Legislative District 44	Congressional	Congressional District 1	U.S. Representative	6	Richard J. Todd	7.0	413	75889	
+SN	Snohomish	LEG	39	Legislative District 39	Congressional	Congressional District 1	U.S. Representative	6	Richard J. Todd	7.0	327	75888	
+SN	Snohomish	LEG	1	Legislative District 1	Congressional	Congressional District 1	U.S. Representative	6	Richard J. Todd	7.0	176	75883	
+SN	Snohomish	LEG	32	Legislative District 32	Congressional	Congressional District 2	U.S. Representative	8	Mike Lapointe	1.0	671	75886	
+SN	Snohomish	LEG	39	Legislative District 39	Congressional	Congressional District 2	U.S. Representative	8	Mike Lapointe	1.0	436	75888	
+SN	Snohomish	LEG	1	Legislative District 1	Congressional	Congressional District 2	U.S. Representative	8	Mike Lapointe	1.0	657	75883	
+SN	Snohomish	LEG	38	Legislative District 38	Congressional	Congressional District 2	U.S. Representative	8	Mike Lapointe	1.0	2184	75887	
+SN	Snohomish	LEG	21	Legislative District 21	Congressional	Congressional District 2	U.S. Representative	8	Mike Lapointe	1.0	1554	75885	
+SN	Snohomish	LEG	10	Legislative District 10	Congressional	Congressional District 2	U.S. Representative	8	Mike Lapointe	1.0	484	75884	
+SN	Snohomish	LEG	44	Legislative District 44	Congressional	Congressional District 2	U.S. Representative	8	Mike Lapointe	1.0	393	75889	
+SN	Snohomish	LEG	38	Legislative District 38	Congressional	Congressional District 2	U.S. Representative	8	Rick Larsen	2.0	9307	75887	
+SN	Snohomish	LEG	21	Legislative District 21	Congressional	Congressional District 2	U.S. Representative	8	Rick Larsen	2.0	7762	75885	
+SN	Snohomish	LEG	1	Legislative District 1	Congressional	Congressional District 2	U.S. Representative	8	Rick Larsen	2.0	3340	75883	
+SN	Snohomish	LEG	44	Legislative District 44	Congressional	Congressional District 2	U.S. Representative	8	Rick Larsen	2.0	1723	75889	
+SN	Snohomish	LEG	10	Legislative District 10	Congressional	Congressional District 2	U.S. Representative	8	Rick Larsen	2.0	1893	75884	
+SN	Snohomish	LEG	39	Legislative District 39	Congressional	Congressional District 2	U.S. Representative	8	Rick Larsen	2.0	1635	75888	
+SN	Snohomish	LEG	32	Legislative District 32	Congressional	Congressional District 2	U.S. Representative	8	Rick Larsen	2.0	3155	75886	
+SN	Snohomish	LEG	21	Legislative District 21	Congressional	Congressional District 2	U.S. Representative	8	B.J. Guillot	3.0	4723	75885	
+SN	Snohomish	LEG	38	Legislative District 38	Congressional	Congressional District 2	U.S. Representative	8	B.J. Guillot	3.0	5357	75887	
+SN	Snohomish	LEG	1	Legislative District 1	Congressional	Congressional District 2	U.S. Representative	8	B.J. Guillot	3.0	1721	75883	
+SN	Snohomish	LEG	32	Legislative District 32	Congressional	Congressional District 2	U.S. Representative	8	B.J. Guillot	3.0	1769	75886	
+SN	Snohomish	LEG	10	Legislative District 10	Congressional	Congressional District 2	U.S. Representative	8	B.J. Guillot	3.0	1886	75884	
+SN	Snohomish	LEG	39	Legislative District 39	Congressional	Congressional District 2	U.S. Representative	8	B.J. Guillot	3.0	1518	75888	
+SN	Snohomish	LEG	44	Legislative District 44	Congressional	Congressional District 2	U.S. Representative	8	B.J. Guillot	3.0	1487	75889	
+SN	Snohomish	LEG	32	Legislative District 32	Congressional	Congressional District 7	U.S. Representative	9	Scott Sutherland	1.0	456	75886	
+SN	Snohomish	LEG	21	Legislative District 21	Congressional	Congressional District 7	U.S. Representative	9	Scott Sutherland	1.0	823	75885	
+SN	Snohomish	LEG	21	Legislative District 21	Congressional	Congressional District 7	U.S. Representative	9	GoodSpaceGuy	2.0	58	75885	
+SN	Snohomish	LEG	32	Legislative District 32	Congressional	Congressional District 7	U.S. Representative	9	GoodSpaceGuy	2.0	22	75886	
+SN	Snohomish	LEG	32	Legislative District 32	Congressional	Congressional District 7	U.S. Representative	9	Jim McDermott	3.0	2514	75886	
+SN	Snohomish	LEG	21	Legislative District 21	Congressional	Congressional District 7	U.S. Representative	9	Jim McDermott	3.0	4130	75885	
+SN	Snohomish	LEG	21	Legislative District 21	Congressional	Congressional District 7	U.S. Representative	9	Craig Keller	4.0	1350	75885	
+SN	Snohomish	LEG	32	Legislative District 32	Congressional	Congressional District 7	U.S. Representative	9	Craig Keller	4.0	766	75886	
+SN	Snohomish	LEG	21	Legislative District 21	Congressional	Congressional District 7	U.S. Representative	9	Doug McQuaid	5.0	469	75885	
+SN	Snohomish	LEG	32	Legislative District 32	Congressional	Congressional District 7	U.S. Representative	9	Doug McQuaid	5.0	282	75886	
+SN	Snohomish	LEG	1	Legislative District 1	Legislative	Legislative District 1	State Representative Pos. 1	20	Derek Stanford	1.0	9819	75883	
+SN	Snohomish	LEG	1	Legislative District 1	Legislative	Legislative District 1	State Representative Pos. 2	21	Edward J. Barton	1.0	6144	75883	
+SN	Snohomish	LEG	1	Legislative District 1	Legislative	Legislative District 1	State Representative Pos. 2	21	Luis Moscoso	2.0	5988	75883	
+SN	Snohomish	LEG	1	Legislative District 1	Legislative	Legislative District 1	State Representative Pos. 2	21	Dave Griffin	3.0	1780	75883	
+SN	Snohomish	LEG	10	Legislative District 10	Legislative	Legislative District 10	State Representative Pos. 1	23	Norma Smith	1.0	3493	75884	
+SN	Snohomish	LEG	10	Legislative District 10	Legislative	Legislative District 10	State Representative Pos. 1	23	Michael Scott	2.0	1209	75884	
+SN	Snohomish	LEG	10	Legislative District 10	Legislative	Legislative District 10	State Representative Pos. 2	24	Dave Hayes	1.0	2634	75884	
+SN	Snohomish	LEG	10	Legislative District 10	Legislative	Legislative District 10	State Representative Pos. 2	24	David Sponheim	2.0	638	75884	
+SN	Snohomish	LEG	10	Legislative District 10	Legislative	Legislative District 10	State Representative Pos. 2	24	Nick Petrish	3.0	1121	75884	
+SN	Snohomish	LEG	10	Legislative District 10	Legislative	Legislative District 10	State Representative Pos. 2	24	Brien Lillquist	4.0	500	75884	
+SN	Snohomish	LEG	21	Legislative District 21	Legislative	Legislative District 21	State Senator	25	Dan Matthews	1.0	8981	75885	
+SN	Snohomish	LEG	21	Legislative District 21	Legislative	Legislative District 21	State Senator	25	Marko Liias	2.0	11741	75885	
+SN	Snohomish	LEG	21	Legislative District 21	Legislative	Legislative District 21	State Representative Pos. 1	26	Scott V. Whelpley	1.0	4252	75885	
+SN	Snohomish	LEG	21	Legislative District 21	Legislative	Legislative District 21	State Representative Pos. 1	26	Justin McMahon	2.0	3078	75885	
+SN	Snohomish	LEG	21	Legislative District 21	Legislative	Legislative District 21	State Representative Pos. 1	26	Dick McManus	3.0	782	75885	
+SN	Snohomish	LEG	21	Legislative District 21	Legislative	Legislative District 21	State Representative Pos. 1	26	Allen McPheeters	4.0	6684	75885	
+SN	Snohomish	LEG	21	Legislative District 21	Legislative	Legislative District 21	State Representative Pos. 1	26	Strom Peterson	5.0	5857	75885	
+SN	Snohomish	LEG	21	Legislative District 21	Legislative	Legislative District 21	State Representative Pos. 2	27	Ed Wegner	1.0	1233	75885	
+SN	Snohomish	LEG	21	Legislative District 21	Legislative	Legislative District 21	State Representative Pos. 2	27	Lillian Ortiz-Self	2.0	11552	75885	
+SN	Snohomish	LEG	21	Legislative District 21	Legislative	Legislative District 21	State Representative Pos. 2	27	Jeff Scherrer	3.0	7095	75885	
+SN	Snohomish	LEG	21	Legislative District 21	Legislative	Legislative District 21	State Representative Pos. 2	27	Bob Lewis	4.0	806	75885	
+SN	Snohomish	LEG	32	Legislative District 32	Legislative	Legislative District 32	State Senator	28	Maralyn Chase	1.0	4698	75886	
+SN	Snohomish	LEG	32	Legislative District 32	Legislative	Legislative District 32	State Senator	28	Chris Eggen	2.0	1909	75886	
+SN	Snohomish	LEG	32	Legislative District 32	Legislative	Legislative District 32	State Senator	28	Robert Reedy	3.0	2980	75886	
+SN	Snohomish	LEG	32	Legislative District 32	Legislative	Legislative District 32	State Representative Pos. 1	29	Cindy Ryu	1.0	7168	75886	
+SN	Snohomish	LEG	32	Legislative District 32	Legislative	Legislative District 32	State Representative Pos. 2	30	Ruth Kagi	1.0	6288	75886	
+SN	Snohomish	LEG	32	Legislative District 32	Legislative	Legislative District 32	State Representative Pos. 2	30	Alvin A. Rutledge	2.0	3164	75886	
+SN	Snohomish	LEG	38	Legislative District 38	Legislative	Legislative District 38	State Senator	31	John McCoy	1.0	10694	75887	
+SN	Snohomish	LEG	38	Legislative District 38	Legislative	Legislative District 38	State Senator	31	Craig French	2.0	5914	75887	
+SN	Snohomish	LEG	38	Legislative District 38	Legislative	Legislative District 38	State Representative Pos. 1	32	June Robinson	1.0	9754	75887	
+SN	Snohomish	LEG	38	Legislative District 38	Legislative	Legislative District 38	State Representative Pos. 1	32	Jesse Anderson	2.0	6802	75887	
+SN	Snohomish	LEG	38	Legislative District 38	Legislative	Legislative District 38	State Representative Pos. 2	33	Elijah Olson	1.0	4918	75887	
+SN	Snohomish	LEG	38	Legislative District 38	Legislative	Legislative District 38	State Representative Pos. 2	33	Mike Sells	2.0	10985	75887	
+SN	Snohomish	LEG	39	Legislative District 39	Legislative	Legislative District 39	State Representative Pos. 1	35	Dan Kristiansen	1.0	11657	75888	
+SN	Snohomish	LEG	39	Legislative District 39	Legislative	Legislative District 39	State Representative Pos. 2	36	Charles Jensen	1.0	6471	75888	
+SN	Snohomish	LEG	39	Legislative District 39	Legislative	Legislative District 39	State Representative Pos. 2	36	Elizabeth Scott	2.0	9034	75888	
+SN	Snohomish	LEG	44	Legislative District 44	Legislative	Legislative District 44	State Senator	37	Steve Hobbs	1.0	11705	75889	
+SN	Snohomish	LEG	44	Legislative District 44	Legislative	Legislative District 44	State Senator	37	Jim Kellett	2.0	10680	75889	
+SN	Snohomish	LEG	44	Legislative District 44	Legislative	Legislative District 44	State Representative Pos. 1	38	Hans Dunshee	1.0	11948	75889	
+SN	Snohomish	LEG	44	Legislative District 44	Legislative	Legislative District 44	State Representative Pos. 1	38	Rob Toyer	2.0	10544	75889	
+SN	Snohomish	LEG	44	Legislative District 44	Legislative	Legislative District 44	State Representative Pos. 2	39	Mark Harmsworth	1.0	11567	75889	
+SN	Snohomish	LEG	44	Legislative District 44	Legislative	Legislative District 44	State Representative Pos. 2	39	Mike Wilson	2.0	10699	75889	
+SP	Spokane	LEG	LE03     	Legislative District 3	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	76882	
+SP	Spokane	LEG	LE09     	Legislative District 9	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	76886	
+SP	Spokane	LEG	LE04     	Legislative District 4	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	76883	
+SP	Spokane	LEG	LE07     	Legislative District 7	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	76885	
+SP	Spokane	LEG	LE06     	Legislative District 6	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	76884	
+SP	Spokane	LEG	LE03     	Legislative District 3	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	76882	
+SP	Spokane	LEG	LE09     	Legislative District 9	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	76886	
+SP	Spokane	LEG	LE06     	Legislative District 6	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	76884	
+SP	Spokane	LEG	LE04     	Legislative District 4	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	76883	
+SP	Spokane	LEG	LE07     	Legislative District 7	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	76885	
+SP	Spokane	LEG	LE03     	Legislative District 3	Congressional	Congressional District 5	U.S. Representative	6	Cathy McMorris Rodgers	1.0	8499	76882	
+SP	Spokane	LEG	LE07     	Legislative District 7	Congressional	Congressional District 5	U.S. Representative	6	Cathy McMorris Rodgers	1.0	6716	76885	
+SP	Spokane	LEG	LE09     	Legislative District 9	Congressional	Congressional District 5	U.S. Representative	6	Cathy McMorris Rodgers	1.0	1265	76886	
+SP	Spokane	LEG	LE04     	Legislative District 4	Congressional	Congressional District 5	U.S. Representative	6	Cathy McMorris Rodgers	1.0	16049	76883	
+SP	Spokane	LEG	LE06     	Legislative District 6	Congressional	Congressional District 5	U.S. Representative	6	Cathy McMorris Rodgers	1.0	15742	76884	
+SP	Spokane	LEG	LE09     	Legislative District 9	Congressional	Congressional District 5	U.S. Representative	6	Dave Wilson	2.0	233	76886	
+SP	Spokane	LEG	LE07     	Legislative District 7	Congressional	Congressional District 5	U.S. Representative	6	Dave Wilson	2.0	1455	76885	
+SP	Spokane	LEG	LE04     	Legislative District 4	Congressional	Congressional District 5	U.S. Representative	6	Dave Wilson	2.0	3118	76883	
+SP	Spokane	LEG	LE06     	Legislative District 6	Congressional	Congressional District 5	U.S. Representative	6	Dave Wilson	2.0	4217	76884	
+SP	Spokane	LEG	LE03     	Legislative District 3	Congressional	Congressional District 5	U.S. Representative	6	Dave Wilson	2.0	2973	76882	
+SP	Spokane	LEG	LE06     	Legislative District 6	Congressional	Congressional District 5	U.S. Representative	6	Joseph (Joe) Pakootas	3.0	10201	76884	
+SP	Spokane	LEG	LE03     	Legislative District 3	Congressional	Congressional District 5	U.S. Representative	6	Joseph (Joe) Pakootas	3.0	8658	76882	
+SP	Spokane	LEG	LE07     	Legislative District 7	Congressional	Congressional District 5	U.S. Representative	6	Joseph (Joe) Pakootas	3.0	2866	76885	
+SP	Spokane	LEG	LE04     	Legislative District 4	Congressional	Congressional District 5	U.S. Representative	6	Joseph (Joe) Pakootas	3.0	7543	76883	
+SP	Spokane	LEG	LE09     	Legislative District 9	Congressional	Congressional District 5	U.S. Representative	6	Joseph (Joe) Pakootas	3.0	458	76886	
+SP	Spokane	LEG	LE03     	Legislative District 3	Congressional	Congressional District 5	U.S. Representative	6	Tom Horne	4.0	1322	76882	
+SP	Spokane	LEG	LE04     	Legislative District 4	Congressional	Congressional District 5	U.S. Representative	6	Tom Horne	4.0	2719	76883	
+SP	Spokane	LEG	LE09     	Legislative District 9	Congressional	Congressional District 5	U.S. Representative	6	Tom Horne	4.0	249	76886	
+SP	Spokane	LEG	LE06     	Legislative District 6	Congressional	Congressional District 5	U.S. Representative	6	Tom Horne	4.0	2182	76884	
+SP	Spokane	LEG	LE07     	Legislative District 7	Congressional	Congressional District 5	U.S. Representative	6	Tom Horne	4.0	1134	76885	
+SP	Spokane	LEG	LE03     	Legislative District 3	Legislative	Legislative District 3	State Representative Pos. 1	17	Tim Benn	1.0	7084	76882	
+SP	Spokane	LEG	LE03     	Legislative District 3	Legislative	Legislative District 3	State Representative Pos. 1	17	Marcus Riccelli	2.0	11873	76882	
+SP	Spokane	LEG	LE03     	Legislative District 3	Legislative	Legislative District 3	State Representative Pos. 1	17	Randy McGlenn II	3.0	1661	76882	
+SP	Spokane	LEG	LE03     	Legislative District 3	Legislative	Legislative District 3	State Representative Pos. 2	18	Paul Delaney	1.0	6087	76882	
+SP	Spokane	LEG	LE03     	Legislative District 3	Legislative	Legislative District 3	State Representative Pos. 2	18	Timm Ormsby	2.0	14019	76882	
+SP	Spokane	LEG	LE04     	Legislative District 4	Legislative	Legislative District 4	State Representative Pos. 1	20	Leonard Christian	1.0	6611	76883	
+SP	Spokane	LEG	LE04     	Legislative District 4	Legislative	Legislative District 4	State Representative Pos. 1	20	Diana Wilhite	2.0	8112	76883	
+SP	Spokane	LEG	LE04     	Legislative District 4	Legislative	Legislative District 4	State Representative Pos. 1	20	Bob McCaslin	3.0	11876	76883	
+SP	Spokane	LEG	LE04     	Legislative District 4	Legislative	Legislative District 4	State Representative Pos. 2	21	Josh Arritola	1.0	11905	76883	
+SP	Spokane	LEG	LE04     	Legislative District 4	Legislative	Legislative District 4	State Representative Pos. 2	21	Matt Shea	2.0	14798	76883	
+SP	Spokane	LEG	LE06     	Legislative District 6	Legislative	Legislative District 6	State Senator	22	Michael Baumgartner	1.0	18471	76884	
+SP	Spokane	LEG	LE06     	Legislative District 6	Legislative	Legislative District 6	State Senator	22	Rich Cowan	2.0	13804	76884	
+SP	Spokane	LEG	LE06     	Legislative District 6	Legislative	Legislative District 6	State Representative Pos. 1	23	Donald Dover	1.0	11475	76884	
+SP	Spokane	LEG	LE06     	Legislative District 6	Legislative	Legislative District 6	State Representative Pos. 1	23	Kevin Parker	2.0	19991	76884	
+SP	Spokane	LEG	LE06     	Legislative District 6	Legislative	Legislative District 6	State Representative Pos. 2	24	Jeff Holy	1.0	22228	76884	
+SP	Spokane	LEG	LE07     	Legislative District 7	Legislative	Legislative District 7	State Senator	25	Tony Booth	1.0	2983	76885	
+SP	Spokane	LEG	LE07     	Legislative District 7	Legislative	Legislative District 7	State Senator	25	Brian Dansel	2.0	6281	76885	
+SP	Spokane	LEG	LE07     	Legislative District 7	Legislative	Legislative District 7	State Representative Pos. 1	26	Shelly Short	1.0	8186	76885	
+SP	Spokane	LEG	LE07     	Legislative District 7	Legislative	Legislative District 7	State Representative Pos. 1	26	James R. Apker	2.0	2181	76885	
+SP	Spokane	LEG	LE07     	Legislative District 7	Legislative	Legislative District 7	State Representative Pos. 2	27	Joel Kretz	1.0	8673	76885	
+SP	Spokane	LEG	LE07     	Legislative District 7	Legislative	Legislative District 7	State Representative Pos. 2	27	Ronnie Rae	2.0	1669	76885	
+SP	Spokane	LEG	LE09     	Legislative District 9	Legislative	Legislative District 9	State Representative Pos. 1	29	Susan Fagan	1.0	1672	76886	
+SP	Spokane	LEG	LE09     	Legislative District 9	Legislative	Legislative District 9	State Representative Pos. 2	30	Joe Schmick	1.0	1631	76886	
+ST	Stevens	LEG	7	Legislative District 7	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	75242	
+ST	Stevens	LEG	7	Legislative District 7	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	75242	
+ST	Stevens	LEG	7	Legislative District 7	Congressional	Congressional District 5	U.S. Representative	6	Cathy McMorris Rodgers	1.0	6330	75242	
+ST	Stevens	LEG	7	Legislative District 7	Congressional	Congressional District 5	U.S. Representative	6	Dave Wilson	2.0	1056	75242	
+ST	Stevens	LEG	7	Legislative District 7	Congressional	Congressional District 5	U.S. Representative	6	Joseph (Joe) Pakootas	3.0	2868	75242	
+ST	Stevens	LEG	7	Legislative District 7	Congressional	Congressional District 5	U.S. Representative	6	Tom Horne	4.0	1168	75242	
+ST	Stevens	LEG	7	Legislative District 7	Legislative	Legislative District 7	State Senator	16	Tony Booth	1.0	3287	75242	
+ST	Stevens	LEG	7	Legislative District 7	Legislative	Legislative District 7	State Senator	16	Brian Dansel	2.0	7083	75242	
+ST	Stevens	LEG	7	Legislative District 7	Legislative	Legislative District 7	State Representative Pos. 1	17	Shelly Short	1.0	8486	75242	
+ST	Stevens	LEG	7	Legislative District 7	Legislative	Legislative District 7	State Representative Pos. 1	17	James R. Apker	2.0	1969	75242	
+ST	Stevens	LEG	7	Legislative District 7	Legislative	Legislative District 7	State Representative Pos. 2	18	Joel Kretz	1.0	8780	75242	
+ST	Stevens	LEG	7	Legislative District 7	Legislative	Legislative District 7	State Representative Pos. 2	18	Ronnie Rae	2.0	1436	75242	
+TH	Thurston	LEG	LE35     	Legislative District 35	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	79842	
+TH	Thurston	LEG	LE02     	Legislative District 2	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	79839	
+TH	Thurston	LEG	LE22     	Legislative District 22	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	79841	
+TH	Thurston	LEG	LE20     	Legislative District 20	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	79840	
+TH	Thurston	LEG	LE35     	Legislative District 35	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	79842	
+TH	Thurston	LEG	LE02     	Legislative District 2	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	79839	
+TH	Thurston	LEG	LE22     	Legislative District 22	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	79841	
+TH	Thurston	LEG	LE20     	Legislative District 20	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	79840	
+TH	Thurston	LEG	LE02     	Legislative District 2	Congressional	Congressional District 3	U.S. Representative	6	Bob Dingethal	1.0	51	79839	
+TH	Thurston	LEG	LE20     	Legislative District 20	Congressional	Congressional District 3	U.S. Representative	6	Bob Dingethal	1.0	667	79840	
+TH	Thurston	LEG	LE20     	Legislative District 20	Congressional	Congressional District 3	U.S. Representative	6	Jaime Herrera Beutler	2.0	692	79840	
+TH	Thurston	LEG	LE02     	Legislative District 2	Congressional	Congressional District 3	U.S. Representative	6	Jaime Herrera Beutler	2.0	18	79839	
+TH	Thurston	LEG	LE02     	Legislative District 2	Congressional	Congressional District 3	U.S. Representative	6	Michael Delavar	3.0	7	79839	
+TH	Thurston	LEG	LE20     	Legislative District 20	Congressional	Congressional District 3	U.S. Representative	6	Michael Delavar	3.0	284	79840	
+TH	Thurston	LEG	LE02     	Legislative District 2	Congressional	Congressional District 10	U.S. Representative	7	Joyce McDonald	1.0	3285	79839	
+TH	Thurston	LEG	LE22     	Legislative District 22	Congressional	Congressional District 10	U.S. Representative	7	Joyce McDonald	1.0	7851	79841	
+TH	Thurston	LEG	LE20     	Legislative District 20	Congressional	Congressional District 10	U.S. Representative	7	Joyce McDonald	1.0	871	79840	
+TH	Thurston	LEG	LE35     	Legislative District 35	Congressional	Congressional District 10	U.S. Representative	7	Joyce McDonald	1.0	3134	79842	
+TH	Thurston	LEG	LE22     	Legislative District 22	Congressional	Congressional District 10	U.S. Representative	7	Denny Heck	2.0	16813	79841	
+TH	Thurston	LEG	LE20     	Legislative District 20	Congressional	Congressional District 10	U.S. Representative	7	Denny Heck	2.0	911	79840	
+TH	Thurston	LEG	LE02     	Legislative District 2	Congressional	Congressional District 10	U.S. Representative	7	Denny Heck	2.0	3813	79839	
+TH	Thurston	LEG	LE35     	Legislative District 35	Congressional	Congressional District 10	U.S. Representative	7	Denny Heck	2.0	4283	79842	
+TH	Thurston	LEG	LE20     	Legislative District 20	Congressional	Congressional District 10	U.S. Representative	7	Sam Wright	3.0	54	79840	
+TH	Thurston	LEG	LE22     	Legislative District 22	Congressional	Congressional District 10	U.S. Representative	7	Sam Wright	3.0	739	79841	
+TH	Thurston	LEG	LE02     	Legislative District 2	Congressional	Congressional District 10	U.S. Representative	7	Sam Wright	3.0	199	79839	
+TH	Thurston	LEG	LE35     	Legislative District 35	Congressional	Congressional District 10	U.S. Representative	7	Sam Wright	3.0	177	79842	
+TH	Thurston	LEG	LE02     	Legislative District 2	Congressional	Congressional District 10	U.S. Representative	7	Jennifer Gigi Ferguson	4.0	399	79839	
+TH	Thurston	LEG	LE22     	Legislative District 22	Congressional	Congressional District 10	U.S. Representative	7	Jennifer Gigi Ferguson	4.0	1041	79841	
+TH	Thurston	LEG	LE35     	Legislative District 35	Congressional	Congressional District 10	U.S. Representative	7	Jennifer Gigi Ferguson	4.0	355	79842	
+TH	Thurston	LEG	LE20     	Legislative District 20	Congressional	Congressional District 10	U.S. Representative	7	Jennifer Gigi Ferguson	4.0	136	79840	
+TH	Thurston	LEG	LE02     	Legislative District 2	Legislative	Legislative District 2	State Representative Pos. 1	18	Graham Hunt	1.0	4051	79839	
+TH	Thurston	LEG	LE02     	Legislative District 2	Legislative	Legislative District 2	State Representative Pos. 1	18	Greg Hartman	2.0	3593	79839	
+TH	Thurston	LEG	LE02     	Legislative District 2	Legislative	Legislative District 2	State Representative Pos. 2	19	J.T. Wilcox	1.0	4891	79839	
+TH	Thurston	LEG	LE02     	Legislative District 2	Legislative	Legislative District 2	State Representative Pos. 2	19	Steven Nielson	2.0	1503	79839	
+TH	Thurston	LEG	LE02     	Legislative District 2	Legislative	Legislative District 2	State Representative Pos. 2	19	Rick Payne	3.0	746	79839	
+TH	Thurston	LEG	LE20     	Legislative District 20	Legislative	Legislative District 20	State Representative Pos. 1	21	Richard DeBolt	1.0	2001	79840	
+TH	Thurston	LEG	LE20     	Legislative District 20	Legislative	Legislative District 20	State Representative Pos. 1	21	Michael Savoca	2.0	1400	79840	
+TH	Thurston	LEG	LE20     	Legislative District 20	Legislative	Legislative District 20	State Representative Pos. 2	22	Ed Orcutt	1.0	1777	79840	
+TH	Thurston	LEG	LE20     	Legislative District 20	Legislative	Legislative District 20	State Representative Pos. 2	22	John Morgan	2.0	1127	79840	
+TH	Thurston	LEG	LE22     	Legislative District 22	Legislative	Legislative District 22	State Representative Pos. 1	24	Steve Owens	1.0	9175	79841	
+TH	Thurston	LEG	LE22     	Legislative District 22	Legislative	Legislative District 22	State Representative Pos. 1	24	Chris Reykdal	2.0	16816	79841	
+TH	Thurston	LEG	LE22     	Legislative District 22	Legislative	Legislative District 22	State Representative Pos. 2	25	Sam Hunt	1.0	18960	79841	
+TH	Thurston	LEG	LE22     	Legislative District 22	Legislative	Legislative District 22	State Representative Pos. 2	25	Franklin Edwards	2.0	5497	79841	
+TH	Thurston	LEG	LE35     	Legislative District 35	Legislative	Legislative District 35	State Senator	26	Irene Bowling	1.0	3022	79842	
+TH	Thurston	LEG	LE35     	Legislative District 35	Legislative	Legislative District 35	State Senator	26	Travis Couture	2.0	2395	79842	
+TH	Thurston	LEG	LE35     	Legislative District 35	Legislative	Legislative District 35	State Senator	26	Tim Sheldon	3.0	2510	79842	
+TH	Thurston	LEG	LE35     	Legislative District 35	Legislative	Legislative District 35	State Representative Pos. 1	27	Kathy Haigh	1.0	4221	79842	
+TH	Thurston	LEG	LE35     	Legislative District 35	Legislative	Legislative District 35	State Representative Pos. 1	27	Dan Griffey	2.0	2179	79842	
+TH	Thurston	LEG	LE35     	Legislative District 35	Legislative	Legislative District 35	State Representative Pos. 1	27	Josiah Rowell 	3.0	1484	79842	
+TH	Thurston	LEG	LE35     	Legislative District 35	Legislative	Legislative District 35	State Representative Pos. 2	28	Drew C. MacEwen	1.0	3873	79842	
+TH	Thurston	LEG	LE35     	Legislative District 35	Legislative	Legislative District 35	State Representative Pos. 2	28	Tammey Newton	2.0	3750	79842	
+WK	Wahkiakum	LEG	019	Legislative District 19	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	80102	
+WK	Wahkiakum	LEG	019	Legislative District 19	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	80102	
+WK	Wahkiakum	LEG	019	Legislative District 19	Congressional	Congressional District 3	U.S. Representative	7	Bob Dingethal	1.0	449	80102	
+WK	Wahkiakum	LEG	019	Legislative District 19	Congressional	Congressional District 3	U.S. Representative	7	Jaime Herrera Beutler	2.0	581	80102	
+WK	Wahkiakum	LEG	019	Legislative District 19	Congressional	Congressional District 3	U.S. Representative	7	Michael Delavar	3.0	156	80102	
+WK	Wahkiakum	LEG	019	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 1	18	Dean Takko	1.0	794	80102	
+WK	Wahkiakum	LEG	019	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 1	18	David A. Steenson	2.0	339	80102	
+WK	Wahkiakum	LEG	019	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 2	19	Hugh Fleet	1.0	418	80102	
+WK	Wahkiakum	LEG	019	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 2	19	Brian Blake	2.0	683	80102	
+WK	Wahkiakum	LEG	019	Legislative District 19	Legislative	Legislative District 19	State Representative Pos. 2	19	James (Jimi) O'Hagan  	3.0	91	80102	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	80207	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	80207	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	1	Gavin Seim	1.0	13	80207	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	1	Estakio Beltran	2.0	44	80207	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	1	Dan Newhouse	3.0	224	80207	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	1	Clint Didier	4.0	619	80207	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	1	Josh Ramirez	5.0	11	80207	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	1	Gordon Allen Pross	6.0	2	80207	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	1	Tony Sandoval	7.0	49	80207	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	1	Kevin Midbust	8.0	0	80207	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	1	Glen R. Stockwell	9.0	5	80207	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	1	George Cicotte	10.0	42	80207	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	1	Janéa Holmquist	11.0	54	80207	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Congressional	Congressional District 4	U.S. Representative	1	Richard Wright	12.0	31	80207	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Congressional	Congressional District 5	U.S. Representative	2	Cathy McMorris Rodgers	1.0	7078	80207	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Congressional	Congressional District 5	U.S. Representative	2	Dave Wilson	2.0	1207	80207	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Congressional	Congressional District 5	U.S. Representative	2	Joseph (Joe) Pakootas	3.0	2801	80207	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Congressional	Congressional District 5	U.S. Representative	2	Tom Horne	4.0	1016	80207	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Legislative	Legislative District 16	State Representative Pos. 1	13	Mary Ruth Edwards	1.0	4738	80207	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Legislative	Legislative District 16	State Representative Pos. 1	13	Maureen S. Walsh	2.0	8008	80207	
+WL	Walla Walla	LEG	LE16     	Legislative District 16	Legislative	Legislative District 16	State Representative Pos. 2	14	Terry R. Nealey	1.0	10428	80207	
+WM	Whatcom	LEG	LG0042	Legislative District 42	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	72183	
+WM	Whatcom	LEG	LG0040	Legislative District 40	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	72182	
+WM	Whatcom	LEG	LG0042	Legislative District 42	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	72183	
+WM	Whatcom	LEG	LG0040	Legislative District 40	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	72182	
+WM	Whatcom	LEG	LG0040	Legislative District 40	Congressional	Congressional District 1	U.S. Representative	6	John Orlinski	1.0	74	72182	
+WM	Whatcom	LEG	LG0042	Legislative District 42	Congressional	Congressional District 1	U.S. Representative	6	John Orlinski	1.0	2090	72183	
+WM	Whatcom	LEG	LG0042	Legislative District 42	Congressional	Congressional District 1	U.S. Representative	6	Suzan DelBene	2.0	8830	72183	
+WM	Whatcom	LEG	LG0040	Legislative District 40	Congressional	Congressional District 1	U.S. Representative	6	Suzan DelBene	2.0	493	72182	
+WM	Whatcom	LEG	LG0040	Legislative District 40	Congressional	Congressional District 1	U.S. Representative	6	Mike The Mover	3.0	9	72182	
+WM	Whatcom	LEG	LG0042	Legislative District 42	Congressional	Congressional District 1	U.S. Representative	6	Mike The Mover	3.0	226	72183	
+WM	Whatcom	LEG	LG0042	Legislative District 42	Congressional	Congressional District 1	U.S. Representative	6	Edwin F. Moats	4.0	1329	72183	
+WM	Whatcom	LEG	LG0040	Legislative District 40	Congressional	Congressional District 1	U.S. Representative	6	Edwin F. Moats	4.0	41	72182	
+WM	Whatcom	LEG	LG0040	Legislative District 40	Congressional	Congressional District 1	U.S. Representative	6	Pedro Celis	5.0	207	72182	
+WM	Whatcom	LEG	LG0042	Legislative District 42	Congressional	Congressional District 1	U.S. Representative	6	Pedro Celis	5.0	5844	72183	
+WM	Whatcom	LEG	LG0040	Legislative District 40	Congressional	Congressional District 1	U.S. Representative	6	Robert J. Sutherland	6.0	95	72182	
+WM	Whatcom	LEG	LG0042	Legislative District 42	Congressional	Congressional District 1	U.S. Representative	6	Robert J. Sutherland	6.0	3766	72183	
+WM	Whatcom	LEG	LG0040	Legislative District 40	Congressional	Congressional District 1	U.S. Representative	6	Richard J. Todd	7.0	16	72182	
+WM	Whatcom	LEG	LG0042	Legislative District 42	Congressional	Congressional District 1	U.S. Representative	6	Richard J. Todd	7.0	339	72183	
+WM	Whatcom	LEG	LG0040	Legislative District 40	Congressional	Congressional District 2	U.S. Representative	7	Mike Lapointe	1.0	1197	72182	
+WM	Whatcom	LEG	LG0042	Legislative District 42	Congressional	Congressional District 2	U.S. Representative	7	Mike Lapointe	1.0	843	72183	
+WM	Whatcom	LEG	LG0042	Legislative District 42	Congressional	Congressional District 2	U.S. Representative	7	Rick Larsen	2.0	4908	72183	
+WM	Whatcom	LEG	LG0040	Legislative District 40	Congressional	Congressional District 2	U.S. Representative	7	Rick Larsen	2.0	6964	72182	
+WM	Whatcom	LEG	LG0040	Legislative District 40	Congressional	Congressional District 2	U.S. Representative	7	B.J. Guillot	3.0	2725	72182	
+WM	Whatcom	LEG	LG0042	Legislative District 42	Congressional	Congressional District 2	U.S. Representative	7	B.J. Guillot	3.0	1773	72183	
+WM	Whatcom	LEG	LG0040	Legislative District 40	Legislative	Legislative District 40	State Representative Pos. 1	9	Kristine Lytton	1.0	8252	72182	
+WM	Whatcom	LEG	LG0040	Legislative District 40	Legislative	Legislative District 40	State Representative Pos. 1	9	Daniel R. Miller	2.0	3413	72182	
+WM	Whatcom	LEG	LG0040	Legislative District 40	Legislative	Legislative District 40	State Representative Pos. 2	10	Jeff Morris	1.0	8729	72182	
+WM	Whatcom	LEG	LG0042	Legislative District 42	Legislative	Legislative District 42	State Senator	11	Seth Fleetwood	1.0	13034	72183	
+WM	Whatcom	LEG	LG0042	Legislative District 42	Legislative	Legislative District 42	State Senator	11	Doug Ericksen	2.0	17233	72183	
+WM	Whatcom	LEG	LG0042	Legislative District 42	Legislative	Legislative District 42	State Representative Pos. 1	12	Nicholas Kunkel	1.0	1197	72183	
+WM	Whatcom	LEG	LG0042	Legislative District 42	Legislative	Legislative District 42	State Representative Pos. 1	12	Satpal Sidhu	2.0	11736	72183	
+WM	Whatcom	LEG	LG0042	Legislative District 42	Legislative	Legislative District 42	State Representative Pos. 1	12	Luanne VanWerven	3.0	10360	72183	
+WM	Whatcom	LEG	LG0042	Legislative District 42	Legislative	Legislative District 42	State Representative Pos. 1	12	Bill Knutzen	4.0	6941	72183	
+WM	Whatcom	LEG	LG0042	Legislative District 42	Legislative	Legislative District 42	State Representative Pos. 2	13	Joy Monjure	1.0	13004	72183	
+WM	Whatcom	LEG	LG0042	Legislative District 42	Legislative	Legislative District 42	State Representative Pos. 2	13	Vincent Buys	2.0	17195	72183	
+WT	Whitman	LEG	9	Legislative District 9	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	74898	
+WT	Whitman	LEG	9	Legislative District 9	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	74898	
+WT	Whitman	LEG	9	Legislative District 9	Congressional	Congressional District 5	U.S. Representative	6	Cathy McMorris Rodgers	1.0	3765	74898	
+WT	Whitman	LEG	9	Legislative District 9	Congressional	Congressional District 5	U.S. Representative	6	Dave Wilson	2.0	552	74898	
+WT	Whitman	LEG	9	Legislative District 9	Congressional	Congressional District 5	U.S. Representative	6	Joseph (Joe) Pakootas	3.0	1928	74898	
+WT	Whitman	LEG	9	Legislative District 9	Congressional	Congressional District 5	U.S. Representative	6	Tom Horne	4.0	447	74898	
+WT	Whitman	LEG	9	Legislative District 9	Legislative	Legislative District 9	State Representative Pos. 1	17	Susan Fagan	1.0	4825	74898	
+WT	Whitman	LEG	9	Legislative District 9	Legislative	Legislative District 9	State Representative Pos. 2	18	Joe Schmick	1.0	4863	74898	
+YA	Yakima	LEG	15	Legislative District 15	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	74382	
+YA	Yakima	LEG	14	Legislative District 14	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	74376	
+YA	Yakima	LEG	13	Legislative District 13	Statewide	Statewide	Turnout	0	Registered Voters	0.5	0	74375	
+YA	Yakima	LEG	13	Legislative District 13	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	74375	
+YA	Yakima	LEG	15	Legislative District 15	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	74382	
+YA	Yakima	LEG	14	Legislative District 14	Statewide	Statewide	Turnout	0	Ballots Cast	0.8	0	74376	
+YA	Yakima	LEG	15	Legislative District 15	Congressional	Congressional District 4	U.S. Representative	6	Gavin Seim	1.0	231	74382	
+YA	Yakima	LEG	13	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Gavin Seim	1.0	21	74375	
+YA	Yakima	LEG	14	Legislative District 14	Congressional	Congressional District 4	U.S. Representative	6	Gavin Seim	1.0	336	74376	
+YA	Yakima	LEG	13	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Estakio Beltran	2.0	60	74375	
+YA	Yakima	LEG	14	Legislative District 14	Congressional	Congressional District 4	U.S. Representative	6	Estakio Beltran	2.0	2823	74376	
+YA	Yakima	LEG	15	Legislative District 15	Congressional	Congressional District 4	U.S. Representative	6	Estakio Beltran	2.0	2276	74382	
+YA	Yakima	LEG	14	Legislative District 14	Congressional	Congressional District 4	U.S. Representative	6	Dan Newhouse	3.0	6563	74376	
+YA	Yakima	LEG	13	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Dan Newhouse	3.0	264	74375	
+YA	Yakima	LEG	15	Legislative District 15	Congressional	Congressional District 4	U.S. Representative	6	Dan Newhouse	3.0	6708	74382	
+YA	Yakima	LEG	13	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Clint Didier	4.0	223	74375	
+YA	Yakima	LEG	14	Legislative District 14	Congressional	Congressional District 4	U.S. Representative	6	Clint Didier	4.0	3301	74376	
+YA	Yakima	LEG	15	Legislative District 15	Congressional	Congressional District 4	U.S. Representative	6	Clint Didier	4.0	3057	74382	
+YA	Yakima	LEG	15	Legislative District 15	Congressional	Congressional District 4	U.S. Representative	6	Josh Ramirez	5.0	184	74382	
+YA	Yakima	LEG	13	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Josh Ramirez	5.0	6	74375	
+YA	Yakima	LEG	14	Legislative District 14	Congressional	Congressional District 4	U.S. Representative	6	Josh Ramirez	5.0	181	74376	
+YA	Yakima	LEG	14	Legislative District 14	Congressional	Congressional District 4	U.S. Representative	6	Gordon Allen Pross	6.0	29	74376	
+YA	Yakima	LEG	13	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Gordon Allen Pross	6.0	0	74375	
+YA	Yakima	LEG	15	Legislative District 15	Congressional	Congressional District 4	U.S. Representative	6	Gordon Allen Pross	6.0	20	74382	
+YA	Yakima	LEG	15	Legislative District 15	Congressional	Congressional District 4	U.S. Representative	6	Tony Sandoval	7.0	978	74382	
+YA	Yakima	LEG	13	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Tony Sandoval	7.0	42	74375	
+YA	Yakima	LEG	14	Legislative District 14	Congressional	Congressional District 4	U.S. Representative	6	Tony Sandoval	7.0	1059	74376	
+YA	Yakima	LEG	14	Legislative District 14	Congressional	Congressional District 4	U.S. Representative	6	Kevin Midbust	8.0	32	74376	
+YA	Yakima	LEG	15	Legislative District 15	Congressional	Congressional District 4	U.S. Representative	6	Kevin Midbust	8.0	11	74382	
+YA	Yakima	LEG	13	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Kevin Midbust	8.0	1	74375	
+YA	Yakima	LEG	14	Legislative District 14	Congressional	Congressional District 4	U.S. Representative	6	Glen R. Stockwell	9.0	59	74376	
+YA	Yakima	LEG	15	Legislative District 15	Congressional	Congressional District 4	U.S. Representative	6	Glen R. Stockwell	9.0	53	74382	
+YA	Yakima	LEG	13	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Glen R. Stockwell	9.0	4	74375	
+YA	Yakima	LEG	14	Legislative District 14	Congressional	Congressional District 4	U.S. Representative	6	George Cicotte	10.0	436	74376	
+YA	Yakima	LEG	15	Legislative District 15	Congressional	Congressional District 4	U.S. Representative	6	George Cicotte	10.0	390	74382	
+YA	Yakima	LEG	13	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	George Cicotte	10.0	22	74375	
+YA	Yakima	LEG	15	Legislative District 15	Congressional	Congressional District 4	U.S. Representative	6	Janéa Holmquist	11.0	1312	74382	
+YA	Yakima	LEG	13	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Janéa Holmquist	11.0	129	74375	
+YA	Yakima	LEG	14	Legislative District 14	Congressional	Congressional District 4	U.S. Representative	6	Janéa Holmquist	11.0	1550	74376	
+YA	Yakima	LEG	13	Legislative District 13	Congressional	Congressional District 4	U.S. Representative	6	Richard Wright	12.0	22	74375	
+YA	Yakima	LEG	15	Legislative District 15	Congressional	Congressional District 4	U.S. Representative	6	Richard Wright	12.0	332	74382	
+YA	Yakima	LEG	14	Legislative District 14	Congressional	Congressional District 4	U.S. Representative	6	Richard Wright	12.0	363	74376	
+YA	Yakima	LEG	13	Legislative District 13	Legislative	Legislative District 13	State Senator	16	Judith (Judy) Warnick	1.0	680	74375	
+YA	Yakima	LEG	13	Legislative District 13	Legislative	Legislative District 13	State Senator	16	Mohammad Said	2.0	83	74375	
+YA	Yakima	LEG	13	Legislative District 13	Legislative	Legislative District 13	State Representative Pos. 1	17	Dannette (Dani) Bolyard	1.0	272	74375	
+YA	Yakima	LEG	13	Legislative District 13	Legislative	Legislative District 13	State Representative Pos. 1	17	Tom Dent	2.0	386	74375	
+YA	Yakima	LEG	13	Legislative District 13	Legislative	Legislative District 13	State Representative Pos. 2	18	Matt Manweller	1.0	621	74375	
+YA	Yakima	LEG	14	Legislative District 14	Legislative	Legislative District 14	State Representative Pos. 1	20	Norm Johnson	1.0	11693	74376	
+YA	Yakima	LEG	14	Legislative District 14	Legislative	Legislative District 14	State Representative Pos. 2	21	Ben Shoval	1.0	1953	74376	
+YA	Yakima	LEG	14	Legislative District 14	Legislative	Legislative District 14	State Representative Pos. 2	21	Gina R. McCabe	2.0	7578	74376	
+YA	Yakima	LEG	14	Legislative District 14	Legislative	Legislative District 14	State Representative Pos. 2	21	Adam Yoest	3.0	2119	74376	
+YA	Yakima	LEG	14	Legislative District 14	Legislative	Legislative District 14	State Representative Pos. 2	21	Paul George	4.0	4334	74376	
+YA	Yakima	LEG	15	Legislative District 15	Legislative	Legislative District 15	State Senator	22	Jim Honeyford	1.0	11464	74382	
+YA	Yakima	LEG	15	Legislative District 15	Legislative	Legislative District 15	State Senator	22	Gabriel Munoz	2.0	3719	74382	
+YA	Yakima	LEG	15	Legislative District 15	Legislative	Legislative District 15	State Representative Pos. 1	23	Bruce Chandler	1.0	12462	74382	
+YA	Yakima	LEG	15	Legislative District 15	Legislative	Legislative District 15	State Representative Pos. 2	24	David V. Taylor	1.0	11246	74382	
+YA	Yakima	LEG	15	Legislative District 15	Legislative	Legislative District 15	State Representative Pos. 2	24	Teodora Martinez-Chavez	2.0	3683	74382	
