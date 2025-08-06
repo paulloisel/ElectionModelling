@@ -13,7 +13,8 @@ from .constants_WA import (
     SOS_FILENAME_PATTERN, RESULTS_FILENAME_PATTERN,
     LOCAL_SOS_FILENAME_PATTERN, LOCAL_RESULTS_FILENAME_PATTERN,
     ELECTION_TYPES, MIN_FILE_SIZE_BYTES, REQUEST_TIMEOUT_SECONDS,
-    MAX_RETRY_ATTEMPTS, USER_AGENT, REGISTERED_VOTERS_URLS, ELECTION_RESULTS_URLS, GEOGRAPHIC_DATA_2012
+    MAX_RETRY_ATTEMPTS, USER_AGENT, REGISTERED_VOTERS_URLS, ELECTION_RESULTS_URLS, GEOGRAPHIC_DATA_2012,
+    CENSUS_YEARS, CENSUS_VARIABLES, CENSUS_BASE_URL, WA_STATE_FIPS, WA_CENSUS_GEO
 )
 
 # Set up logging
@@ -542,6 +543,194 @@ class WAStateDownloader:
         return status
 
 
+class CensusDownloader:
+    """
+    Generic downloader for US Census data.
+    
+    Downloads American Community Survey (ACS) 5-year estimates for any state
+    and geographic level from 2010-2023.
+    """
+    
+    def __init__(self, output_dir: str = "data/raw/census"):
+        """
+        Initialize the census downloader.
+        
+        Args:
+            output_dir: Directory to save downloaded census files
+        """
+        self.output_dir = Path(output_dir)
+        self.output_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Census-specific attributes
+        self.years = CENSUS_YEARS
+        self.variables = CENSUS_VARIABLES
+        self.base_url = CENSUS_BASE_URL
+    
+    def download_census_data(self, year: int, geo: list, state_name: str = "state", 
+                           variables: list = None, geographic_level: str = "congressional district") -> Optional[pd.DataFrame]:
+        """
+        Download census data for a specific year and geographic level.
+        
+        Args:
+            year: Census year (2010-2023)
+            geo: Geographic specification for censusdata.censusgeo()
+            state_name: Name of the state (for file naming)
+            variables: List of census variables to download (defaults to CENSUS_VARIABLES)
+            geographic_level: Geographic level (e.g., "congressional district", "county", etc.)
+            
+        Returns:
+            DataFrame with census data if successful, None otherwise
+        """
+        if variables is None:
+            variables = self.variables
+        
+        if year not in self.years:
+            raise ValueError(f"Year {year} not supported. Must be one of {list(self.years)}")
+        
+        try:
+            import censusdata
+            
+            logger.info(f"Downloading census data for {state_name} {geographic_level}s, year {year}")
+            
+            # Download data
+            df = censusdata.download("acs5", year, geo, variables)
+            
+            # Reset index to convert index to columns
+            df.reset_index(inplace=True)
+            
+            # Rename the index column to "NAME"
+            df.rename(columns={"index": "NAME"}, inplace=True)
+            
+            # Add year column
+            df["year"] = year
+            
+            # Save to file
+            filename = f"{state_name.lower()}_census_{geographic_level.replace(' ', '_')}_{year}.csv"
+            filepath = self.output_dir / filename
+            df.to_csv(filepath, index=False)
+            
+            logger.info(f"Successfully downloaded and saved census data for {year}: {filepath}")
+            logger.info(f"Data shape: {df.shape}")
+            
+            return df
+            
+        except ImportError:
+            logger.error("censusdata package not installed. Please install it with: pip install censusdata")
+            return None
+        except Exception as e:
+            logger.error(f"Failed to download census data for year {year}: {e}")
+            return None
+    
+    def download_wa_congressional_districts(self, year: int, variables: list = None) -> Optional[pd.DataFrame]:
+        """
+        Download census data for Washington State congressional districts for a specific year.
+        
+        Args:
+            year: Census year (2010-2023)
+            variables: List of census variables to download (defaults to CENSUS_VARIABLES)
+            
+        Returns:
+            DataFrame with census data if successful, None otherwise
+        """
+        try:
+            import censusdata
+            geo = censusdata.censusgeo(WA_CENSUS_GEO)
+        except ImportError:
+            logger.error("censusdata package not installed. Please install it with: pip install censusdata")
+            return None
+        
+        return self.download_census_data(
+            year=year,
+            geo=geo,
+            state_name="wa",
+            variables=variables,
+            geographic_level="congressional district"
+        )
+    
+    def download_all_wa_congressional_districts(self) -> Dict[int, Optional[pd.DataFrame]]:
+        """
+        Download census data for Washington State congressional districts for all years (2010-2023).
+        
+        Returns:
+            Dictionary with year as key and DataFrame as value
+        """
+        logger.info("Downloading census data for Washington State congressional districts for all years (2010-2023)")
+        
+        all_data = {}
+        
+        for year in self.years:
+            logger.info(f"Processing census data for year {year}")
+            df = self.download_wa_congressional_districts(year)
+            all_data[year] = df
+            
+            # Add a small delay between requests to be respectful to the API
+            time.sleep(1)
+        
+        return all_data
+    
+    def download_and_combine_wa_congressional_districts(self) -> Optional[pd.DataFrame]:
+        """
+        Download census data for Washington State congressional districts for all years and combine into a single DataFrame.
+        
+        Returns:
+            Combined DataFrame with all years of census data, None if failed
+        """
+        logger.info("Downloading and combining Washington State congressional district census data for all years")
+        
+        try:
+            # Download data for all years
+            all_data = self.download_all_wa_congressional_districts()
+            
+            # Filter out None values (failed downloads)
+            successful_data = {year: df for year, df in all_data.items() if df is not None}
+            
+            if not successful_data:
+                logger.error("No census data was successfully downloaded")
+                return None
+            
+            # Combine all DataFrames
+            combined_df = pd.concat(successful_data.values(), ignore_index=True)
+            
+            # Save combined data
+            combined_filename = "wa_census_congressional_districts_combined_2010_2023.csv"
+            combined_filepath = self.output_dir / combined_filename
+            combined_df.to_csv(combined_filepath, index=False)
+            
+            logger.info(f"Successfully combined census data: {combined_filepath}")
+            logger.info(f"Combined data shape: {combined_df.shape}")
+            logger.info(f"Years included: {sorted(successful_data.keys())}")
+            
+            return combined_df
+            
+        except Exception as e:
+            logger.error(f"Failed to combine census data: {e}")
+            return None
+    
+    def get_download_status(self) -> Dict[str, Any]:
+        """
+        Get status of downloaded census files.
+        
+        Returns:
+            Dictionary with census file status information
+        """
+        status = {
+            'census_directory': str(self.output_dir),
+            'files': {}
+        }
+        
+        if self.output_dir.exists():
+            for filepath in self.output_dir.glob("*.csv"):
+                if filepath.is_file():
+                    file_info = {
+                        'size_bytes': filepath.stat().st_size,
+                        'size_mb': round(filepath.stat().st_size / (1024 * 1024), 2),
+                        'modified': filepath.stat().st_mtime
+                    }
+                    status['files'][filepath.name] = file_info
+        
+        return status
+
+
 def main():
     """
     Example usage of the WAStateDownloader.
@@ -604,6 +793,34 @@ def main():
         print(f"  {filename}: {info['size_mb']} MB")
     
     print(f"\nTotal files: {len(status['files'])}")
+    
+    # Example of using the census downloader
+    print("\n" + "=" * 50)
+    print("Census Data Download Example")
+    print("=" * 50)
+    
+    # Initialize census downloader
+    census_downloader = CensusDownloader(output_dir="data/raw/census")
+    
+    # Download and combine census data for all years
+    print("Downloading census data for Washington State congressional districts (2010-2023)...")
+    combined_census_data = census_downloader.download_and_combine_wa_congressional_districts()
+    
+    if combined_census_data is not None:
+        print(f"✓ Census data downloaded and combined successfully")
+        print(f"  Shape: {combined_census_data.shape}")
+        print(f"  Years: {sorted(combined_census_data['year'].unique())}")
+        print(f"  Congressional Districts: {sorted(combined_census_data['NAME'].unique())}")
+    else:
+        print("✗ Failed to download census data")
+    
+    # Print census download status
+    print("\nCensus Download Status:")
+    census_status = census_downloader.get_download_status()
+    print(f"Census directory: {census_status['census_directory']}")
+    print("Census files downloaded:")
+    for filename, info in census_status['files'].items():
+        print(f"  {filename}: {info['size_mb']} MB")
 
 
 if __name__ == "__main__":

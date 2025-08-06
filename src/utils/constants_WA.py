@@ -138,4 +138,13 @@ GEOGRAPHIC_DATA_2012 = {
     'wa_congressional_districts_url': 'https://www2.census.gov/geo/tiger/TIGER2020PL/STATE/53_WASHINGTON/53/tl_2020_53_cd113.zip',
     'wa_congressional_districts_filename': 'wa_congressional_districts_2012_redistricting_113th_115th_congress.zip',
     'description': 'Post-2010 redistricting boundaries (113th-115th Congresses)'
-} 
+}
+
+# Census data constants
+CENSUS_YEARS = range(2010, 2024)  # 2010-2023 5-year releases
+CENSUS_VARIABLES = ["B01001_001E"]  # Total population - add more variables as needed
+CENSUS_BASE_URL = "https://api.census.gov/data/{yr}/acs/acs5"
+
+# Washington State specific census constants
+WA_STATE_FIPS = "53"  # Washington State FIPS code
+WA_CENSUS_GEO = [("state", WA_STATE_FIPS), ("congressional district", "*")] 
