@@ -1,6 +1,5 @@
 # Ignore virtual environment
-env/
 ElectionModeling/
 
 #ignore the data files
-ElectionModelling/data/raw/
+data/raw/
