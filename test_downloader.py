@@ -19,8 +19,16 @@ def test_downloader():
     # Initialize downloader with data/raw directory
     downloader = WAStateDownloader(output_dir="data/raw")
     
+    # Test downloading congressional district boundaries
+    print("\n1. Testing congressional district boundaries download (2012 redistricting)...")
+    districts_path = downloader.download_wa_congressional_districts_2012_redistricting()
+    if districts_path:
+        print(f"✓ Congressional districts: SUCCESS -> {districts_path}")
+    else:
+        print("✗ Congressional districts: FAILED")
+    
     # Test downloading data for a specific year (2020)
-    print("\n1. Testing 2020 election data download...")
+    print("\n2. Testing 2020 election data download...")
     year_2020 = downloader.download_specific_year_data(2020)
     
     print("Results for 2020:")
@@ -31,7 +39,7 @@ def test_downloader():
             print(f"    File: {path}")
     
     # Test downloading data for all even years (just a few for testing)
-    print("\n2. Testing download for years 2020 and 2024...")
+    print("\n3. Testing download for years 2020 and 2024...")
     test_years = [2020, 2024]
     for year in test_years:
         print(f"\nProcessing year {year}...")
@@ -42,7 +50,7 @@ def test_downloader():
         print(f"  Year {year}: {successful}/{total} successful downloads")
     
     # Print overall status
-    print("\n3. Overall download status:")
+    print("\n4. Overall download status:")
     status = downloader.get_download_status()
     print(f"Output directory: {status['output_directory']}")
     print("Files downloaded:")

@@ -131,4 +131,11 @@ REQUEST_TIMEOUT_SECONDS = 30
 MAX_RETRY_ATTEMPTS = 3
 
 # User agent for requests
-USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' 
+USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+
+# Geographic data constants
+GEOGRAPHIC_DATA_2012 = {
+    'wa_congressional_districts_url': 'https://www2.census.gov/geo/tiger/TIGER2020PL/STATE/53_WASHINGTON/53/tl_2020_53_cd113.zip',
+    'wa_congressional_districts_filename': 'wa_congressional_districts_2012_redistricting_113th_115th_congress.zip',
+    'description': 'Post-2010 redistricting boundaries (113th-115th Congresses)'
+} 

@@ -13,7 +13,7 @@ from .constants_WA import (
     SOS_FILENAME_PATTERN, RESULTS_FILENAME_PATTERN,
     LOCAL_SOS_FILENAME_PATTERN, LOCAL_RESULTS_FILENAME_PATTERN,
     ELECTION_TYPES, MIN_FILE_SIZE_BYTES, REQUEST_TIMEOUT_SECONDS,
-    MAX_RETRY_ATTEMPTS, USER_AGENT, REGISTERED_VOTERS_URLS, ELECTION_RESULTS_URLS
+    MAX_RETRY_ATTEMPTS, USER_AGENT, REGISTERED_VOTERS_URLS, ELECTION_RESULTS_URLS, GEOGRAPHIC_DATA_2012
 )
 
 # Set up logging
@@ -485,6 +485,39 @@ class WAStateDownloader:
         
         return results
     
+    def download_wa_congressional_districts_2012_redistricting(self) -> Optional[Path]:
+        """
+        Download Washington congressional district boundaries (Post-2010 redistricting).
+        
+        Downloads the TIGER/Line shapefile for Washington congressional districts
+        (113th-115th Congresses) from the US Census Bureau.
+        This represents the 2012 redistricting boundaries that were in effect
+        for the 113th-115th Congresses.
+        
+        Returns:
+            Path to downloaded ZIP file if successful, None otherwise
+        """
+        # Get constants for 2012 geographic data
+        url = GEOGRAPHIC_DATA_2012['wa_congressional_districts_url']
+        local_filename = GEOGRAPHIC_DATA_2012['wa_congressional_districts_filename']
+        description = GEOGRAPHIC_DATA_2012['description']
+        
+        # Create geographics subdirectory if it doesn't exist
+        geographics_dir = self.output_dir / "geographics"
+        geographics_dir.mkdir(parents=True, exist_ok=True)
+        
+        filepath = geographics_dir / local_filename
+        
+        logger.info(f"Downloading Washington congressional district boundaries ({description}) from {url}")
+        
+        # Use the existing _download_file method
+        if self._download_file(url, f"geographics/{local_filename}"):
+            logger.info(f"Successfully downloaded congressional district boundaries: {filepath}")
+            return filepath
+        else:
+            logger.error("Failed to download congressional district boundaries")
+            return None
+    
     def get_download_status(self) -> Dict[str, Any]:
         """
         Get status of downloaded files.
@@ -520,8 +553,16 @@ def main():
     print("Washington State Election Data Downloader")
     print("=" * 50)
     
+    # Download congressional district boundaries
+    print("Downloading Washington congressional district boundaries (2012 redistricting)...")
+    districts_path = downloader.download_wa_congressional_districts_2012_redistricting()
+    if districts_path:
+        print(f"✓ Congressional districts downloaded: {districts_path}")
+    else:
+        print("✗ Failed to download congressional districts")
+    
     # Download data for all even years between 2012 and 2024
-    print("Downloading data for all even years (2012-2024)...")
+    print("\nDownloading data for all even years (2012-2024)...")
     all_results = downloader.download_all_even_years_data()
     
     # Print summary of results
