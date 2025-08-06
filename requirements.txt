@@ -1,6 +1,6 @@
 aiohttp==3.8.3
 aiosignal==1.3.1
-altgraph @ file:///AppleInternal/Library/BuildRoots/39d9dc1a-2111-11f0-be06-226177e5bb69/Library/Caches/com.apple.xbs/Sources/python3/altgraph-0.17.2-py2.py3-none-any.whl
+altgraph==0.17.2
 anyio==3.6.2
 appnope==0.1.3
 argon2-cffi==21.3.0
@@ -40,7 +40,7 @@ executing==1.2.0
 fastjsonschema==2.16.2
 fireblocks-sdk==1.18.1
 frozenlist==1.3.3
-future @ file:///AppleInternal/Library/BuildRoots/39d9dc1a-2111-11f0-be06-226177e5bb69/Library/Caches/com.apple.xbs/Sources/python3/future-0.18.2-py3-none-any.whl
+future==0.18.2
 google-api-core==2.11.0
 google-api-python-client==2.74.0
 google-auth==2.16.0
@@ -68,7 +68,7 @@ jupyter_core==5.0.0
 jupyterlab-pygments==0.2.2
 jupyterlab-widgets==3.0.3
 lru-dict==1.1.8
-macholib @ file:///AppleInternal/Library/BuildRoots/39d9dc1a-2111-11f0-be06-226177e5bb69/Library/Caches/com.apple.xbs/Sources/python3/macholib-1.15.2-py2.py3-none-any.whl
+macholib==1.15.2
 MarkupSafe==2.1.1
 matplotlib-inline==0.1.6
 mistune==2.0.4
