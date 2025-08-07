@@ -14,7 +14,8 @@ from .constants_WA import (
     LOCAL_SOS_FILENAME_PATTERN, LOCAL_RESULTS_FILENAME_PATTERN,
     ELECTION_TYPES, MIN_FILE_SIZE_BYTES, REQUEST_TIMEOUT_SECONDS,
     MAX_RETRY_ATTEMPTS, USER_AGENT, REGISTERED_VOTERS_URLS, ELECTION_RESULTS_URLS, GEOGRAPHIC_DATA_2012,
-    CENSUS_YEARS, CENSUS_VARIABLES, CENSUS_BASE_URL, WA_STATE_FIPS, WA_CENSUS_GEO
+    CENSUS_YEARS, CENSUS_VARIABLES, CENSUS_BASE_URL, WA_STATE_FIPS, WA_CENSUS_GEO,
+    VOTER_DEMOGRAPHICS_URL, VOTER_DEMOGRAPHICS_FILENAME
 )
 
 # Set up logging
@@ -519,6 +520,39 @@ class WAStateDownloader:
             logger.error("Failed to download congressional district boundaries")
             return None
     
+    def download_voter_demographics(self) -> Optional[Path]:
+        """
+        Download Washington State voter demographics data.
+        
+        Downloads the voter demographics tables Excel file from the Washington State
+        Secretary of State website. This file contains demographic information about
+        registered voters in Washington State.
+        
+        Returns:
+            Path to downloaded file if successful, None otherwise
+        """
+        logger.info(f"Downloading Washington State voter demographics data from {VOTER_DEMOGRAPHICS_URL}")
+        
+        # Create demographics subdirectory if it doesn't exist
+        demographics_dir = self.output_dir / "demographics"
+        demographics_dir.mkdir(parents=True, exist_ok=True)
+        
+        filepath = demographics_dir / VOTER_DEMOGRAPHICS_FILENAME
+        
+        # Use the existing _download_file method
+        if self._download_file(VOTER_DEMOGRAPHICS_URL, f"demographics/{VOTER_DEMOGRAPHICS_FILENAME}"):
+            # Validate the downloaded file
+            if self._validate_file(filepath, 'excel'):
+                logger.info(f"Successfully downloaded and validated voter demographics data: {filepath}")
+                return filepath
+            else:
+                logger.error("Voter demographics file validation failed")
+                filepath.unlink(missing_ok=True)  # Clean up invalid file
+                return None
+        else:
+            logger.error("Failed to download voter demographics data")
+            return None
+    
     def get_download_status(self) -> Dict[str, Any]:
         """
         Get status of downloaded files.
@@ -749,6 +783,14 @@ def main():
         print(f"✓ Congressional districts downloaded: {districts_path}")
     else:
         print("✗ Failed to download congressional districts")
+    
+    # Download voter demographics data
+    print("Downloading Washington State voter demographics data...")
+    demographics_path = downloader.download_voter_demographics()
+    if demographics_path:
+        print(f"✓ Voter demographics downloaded: {demographics_path}")
+    else:
+        print("✗ Failed to download voter demographics")
     
     # Download data for all even years between 2012 and 2024
     print("\nDownloading data for all even years (2012-2024)...")

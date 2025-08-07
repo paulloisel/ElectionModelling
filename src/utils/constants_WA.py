@@ -147,4 +147,8 @@ CENSUS_BASE_URL = "https://api.census.gov/data/{yr}/acs/acs5"
 
 # Washington State specific census constants
 WA_STATE_FIPS = "53"  # Washington State FIPS code
-WA_CENSUS_GEO = [("state", WA_STATE_FIPS), ("congressional district", "*")] 
+WA_CENSUS_GEO = [("state", WA_STATE_FIPS), ("congressional district", "*")]
+
+# Voter demographics data
+VOTER_DEMOGRAPHICS_URL = "https://www.sos.wa.gov/sites/default/files/2023-06/Voter%20Demographics%20Tables.xlsx"
+VOTER_DEMOGRAPHICS_FILENAME = "wa_voter_demographics_tables.xlsx" 
