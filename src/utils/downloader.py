@@ -533,25 +533,52 @@ class WAStateDownloader:
         """
         logger.info(f"Downloading Washington State voter demographics data from {VOTER_DEMOGRAPHICS_URL}")
         
-        # Create demographics subdirectory if it doesn't exist
-        demographics_dir = self.output_dir / "demographics"
+        # Create demographics subdirectory directly in data/raw
+        demographics_dir = Path("data/raw/demographics")
         demographics_dir.mkdir(parents=True, exist_ok=True)
         
         filepath = demographics_dir / VOTER_DEMOGRAPHICS_FILENAME
         
-        # Use the existing _download_file method
-        if self._download_file(VOTER_DEMOGRAPHICS_URL, f"demographics/{VOTER_DEMOGRAPHICS_FILENAME}"):
-            # Validate the downloaded file
-            if self._validate_file(filepath, 'excel'):
-                logger.info(f"Successfully downloaded and validated voter demographics data: {filepath}")
-                return filepath
-            else:
-                logger.error("Voter demographics file validation failed")
-                filepath.unlink(missing_ok=True)  # Clean up invalid file
-                return None
-        else:
-            logger.error("Failed to download voter demographics data")
-            return None
+        # Download the file directly to the demographics directory
+        for attempt in range(MAX_RETRY_ATTEMPTS):
+            try:
+                logger.info(f"Downloading {VOTER_DEMOGRAPHICS_URL} (attempt {attempt + 1}/{MAX_RETRY_ATTEMPTS})")
+                
+                response = self.session.get(VOTER_DEMOGRAPHICS_URL, timeout=REQUEST_TIMEOUT_SECONDS)
+                response.raise_for_status()
+                
+                # Check if we got actual content
+                if len(response.content) < MIN_FILE_SIZE_BYTES:
+                    logger.warning(f"Downloaded file seems too small: {len(response.content)} bytes")
+                    if attempt < MAX_RETRY_ATTEMPTS - 1:
+                        time.sleep(2 ** attempt)  # Exponential backoff
+                        continue
+                    return None
+                
+                # Save the file
+                with open(filepath, 'wb') as f:
+                    f.write(response.content)
+                
+                logger.info(f"Successfully downloaded {VOTER_DEMOGRAPHICS_FILENAME} ({len(response.content)} bytes)")
+                
+                # Validate the downloaded file
+                if self._validate_file(filepath, 'excel'):
+                    logger.info(f"Successfully downloaded and validated voter demographics data: {filepath}")
+                    return filepath
+                else:
+                    logger.error("Voter demographics file validation failed")
+                    filepath.unlink(missing_ok=True)  # Clean up invalid file
+                    return None
+                
+            except requests.exceptions.RequestException as e:
+                logger.error(f"Download attempt {attempt + 1} failed: {e}")
+                if attempt < MAX_RETRY_ATTEMPTS - 1:
+                    time.sleep(2 ** attempt)  # Exponential backoff
+                else:
+                    logger.error(f"Failed to download {VOTER_DEMOGRAPHICS_URL} after {MAX_RETRY_ATTEMPTS} attempts")
+                    return None
+        
+        return None
     
     def get_download_status(self) -> Dict[str, Any]:
         """

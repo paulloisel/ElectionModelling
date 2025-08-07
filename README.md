@@ -43,6 +43,7 @@ This project implements multiple modeling approaches to predict election turnout
 
 ### Demographic Data
 - **American Community Survey (ACS)**: Census Bureau demographic variables
+- **Washington State Voter Demographics**: Age-based voter demographics by county from Secretary of State
 - **Spatial Data**: Shapefiles for precinct boundaries and spatial joins
 
 ## Features
@@ -66,6 +67,7 @@ This project implements multiple modeling approaches to predict election turnout
 ### Utilities (`src/utils/`)
 - **Geometry**: Spatial operations for precinct-level analysis
 - **CA Registration Counts**: Spatial joins for voter registration data
+- **Downloader**: Automated data downloader for Washington State election data and voter demographics
 
 ## Setup
 
@@ -119,6 +121,23 @@ This project implements multiple modeling approaches to predict election turnout
    - Evaluation
 
 ### Individual Components
+
+**Download Washington State Data**:
+```python
+from src.utils.downloader import WAStateDownloader
+
+# Initialize downloader
+downloader = WAStateDownloader(output_dir="data/raw/wa")
+
+# Download voter demographics data
+demographics_path = downloader.download_voter_demographics()
+
+# Download election data for specific year
+results = downloader.download_specific_year_data(2024)
+
+# Download all available data
+all_results = downloader.download_all_even_years_data()
+```
 
 **Train ElasticNet Model**:
 ```python
