@@ -43,7 +43,7 @@ This project implements multiple modeling approaches to predict election turnout
 
 ### Demographic Data
 - **American Community Survey (ACS)**: Census Bureau demographic variables
-- **Washington State Voter Demographics**: Age-based voter demographics by county from Secretary of State
+- **Washington State Voter Demographics**: Age-based voter demographics from Secretary of State
 - **Spatial Data**: Shapefiles for precinct boundaries and spatial joins
 
 ## Features

@@ -1,120 +1,60 @@
-#!/usr/bin/env python3
-"""
-Example script demonstrating census data download for Washington State.
-This script shows how to use the WACensusDownloader class and also includes
-the original code provided by the user.
-"""
+"""Example usage of the ACS Feature Reduction Pipeline."""
 
-import sys
-import os
-sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
-
-from utils.downloader import CensusDownloader
-from utils.constants_WA import CENSUS_YEARS, CENSUS_VARIABLES, CENSUS_BASE_URL
-import censusdata
-import pandas as pd
-
-def original_census_code():
-    """
-    Original census download code as provided by the user.
-    """
-    print("Original Census Code Example:")
-    print("=" * 50)
-    
-    # Constants (already defined in constants_WA.py)
-    YEARS = CENSUS_YEARS      # range(2010, 2024)  # 2010-2023 5-year releases
-    VARIABLES = CENSUS_VARIABLES  # ["B01001_001E"]    # add as many vars as you like
-    BASE_URL = CENSUS_BASE_URL    # "https://api.census.gov/data/{yr}/acs/acs5"
-    
-    print(f"Years: {list(YEARS)}")
-    print(f"Variables: {VARIABLES}")
-    print(f"Base URL: {BASE_URL}")
-    
-    def download_wa(year, vars_=VARIABLES):
-        geo = censusdata.censusgeo([("state", "53"), ("congressional district", "*")])
-        df = censusdata.download("acs5", year, geo, vars_)
-        df.reset_index(inplace=True)          # index → columns
-        df.rename(columns={"index": "NAME"}, inplace=True)
-        df["year"] = year
-        return df
-    
-    # Download data for all years
-    print("\nDownloading data for all years...")
-    wa_cd = pd.concat([download_wa(y) for y in YEARS], ignore_index=True)
-    
-    print(f"Combined data shape: {wa_cd.shape}")
-    print(f"Years included: {sorted(wa_cd['year'].unique())}")
-    print(f"Congressional Districts: {sorted(wa_cd['NAME'].unique())}")
-    print("\nSample data:")
-    print(wa_cd.head())
-    
-    return wa_cd
-
-def class_based_census_code():
-    """
-    Using the CensusDownloader class.
-    """
-    print("\nClass-Based Census Code Example:")
-    print("=" * 50)
-    
-    # Initialize the census downloader
-    census_downloader = CensusDownloader(output_dir="data/raw/census")
-    
-    # Download data for a single year
-    print("Downloading data for 2020...")
-    df_2020 = census_downloader.download_wa_congressional_districts(2020)
-    
-    if df_2020 is not None:
-        print(f"✓ Successfully downloaded 2020 data")
-        print(f"  Shape: {df_2020.shape}")
-        print(f"  Sample data:")
-        print(df_2020.head())
-    else:
-        print("✗ Failed to download 2020 data")
-    
-    # Download and combine all years
-    print("\nDownloading and combining data for all years...")
-    combined_df = census_downloader.download_and_combine_wa_congressional_districts()
-    
-    if combined_df is not None:
-        print(f"✓ Successfully downloaded and combined data")
-        print(f"  Shape: {combined_df.shape}")
-        print(f"  Years: {sorted(combined_df['year'].unique())}")
-        print(f"  Sample data:")
-        print(combined_df.head())
-    else:
-        print("✗ Failed to download and combine data")
-    
-    return combined_df
+from scr.censuspipeline.pipeline import ACSFeatureReductionPipeline
+from scr.censuspipeline.openai_selector import OpenAISelector
 
 def main():
-    """
-    Main function to run both examples.
-    """
-    print("Washington State Census Data Download Examples")
-    print("=" * 60)
+    # Initialize the pipeline for multiple years
+    pipeline = ACSFeatureReductionPipeline(
+        years=[2020, 2021, 2022],  # Get variables available across these years
+        dataset="acs/acs5"
+    )
     
+    # Load metadata (this will get variables common across all specified years)
+    metadata = pipeline.load_metadata()
+    print(f"\nLoaded {len(metadata)} variables common across years 2020-2022")
+    
+    # Example 1: Filter variables by keywords
+    filtered = pipeline.select_variables(
+        keywords=["income", "education", "employment"],
+        table_prefixes=["B19", "B15", "B23"]  # Tables related to income, education, employment
+    )
+    print(f"\nFiltered to {len(filtered)} variables related to income, education, and employment")
+    print("\nExample variables:")
+    print(filtered[["name", "label"]].head())
+    
+    # Example 2: Use OpenAI to select most relevant variables
+    # Note: Requires OpenAI API key to be set
     try:
-        # Run the original code example
-        original_data = original_census_code()
+        openai_selector = OpenAISelector()
+        pipeline.openai_selector = openai_selector
         
-        # Run the class-based example
-        class_data = class_based_census_code()
-        
-        # Compare results
-        if original_data is not None and class_data is not None:
-            print("\nComparison:")
-            print("=" * 30)
-            print(f"Original code shape: {original_data.shape}")
-            print(f"Class-based shape: {class_data.shape}")
-            print(f"Dataframes are equal: {original_data.equals(class_data)}")
-        
-    except ImportError as e:
-        print(f"Error: {e}")
-        print("Please install the required packages:")
-        print("pip install censusdata pandas")
+        # Select top variables using OpenAI
+        selected = pipeline.select_variables(
+            keywords=["income", "education"],
+            openai_top_k=5  # Get top 5 most relevant variables
+        )
+        print("\nTop 5 variables selected by OpenAI:")
+        print(selected[["name", "label"]])
     except Exception as e:
-        print(f"Error: {e}")
+        print("\nSkipped OpenAI selection (requires API key):", str(e))
+    
+    # Example 3: Remove highly correlated variables from actual data
+    import pandas as pd
+    import numpy as np
+    
+    # Create some example census data
+    n_samples = 100
+    example_data = pd.DataFrame({
+        "B19013_001E": np.random.normal(60000, 20000, n_samples),  # Median income
+        "B19013_002E": np.random.normal(58000, 19000, n_samples),  # Highly correlated with median income
+        "B15003_001E": np.random.normal(40, 10, n_samples),        # Education years (independent)
+    })
+    
+    # Reduce correlations
+    reduced = pipeline.reduce_dataframe(example_data, corr_threshold=0.8)
+    print(f"\nReduced from {len(example_data.columns)} to {len(reduced.columns)} variables after correlation check")
+    print("Remaining variables:", list(reduced.columns))
 
 if __name__ == "__main__":
-    main() 
+    main()
