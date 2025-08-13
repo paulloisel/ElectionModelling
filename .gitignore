@@ -3,3 +3,4 @@ ElectionModeling/
 
 #ignore the data files
 data/raw/
+data/processed/test_examples/

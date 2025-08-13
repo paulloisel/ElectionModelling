@@ -8,7 +8,8 @@ def main():
     # Initialize pipeline for the most recent years
     pipeline = ACSFeatureReductionPipeline(
         years=[2021, 2022],  # Get variables available in recent years
-        dataset="acs/acs5"
+        dataset="acs/acs5",
+        output_dir="data/processed/test_examples"
     )
     
     # Load metadata for variables available across years
@@ -79,6 +80,15 @@ def main():
     # Show summary by state
     print("\nSummary statistics by state:")
     print(reduced.groupby("state").mean().round(2))
+    
+    # Save results
+    print("\nSaving results...")
+    pipeline.save_results(
+        reduced_df=reduced,
+        metadata_df=selected,
+        data_filename="multi_state_reduced_data.csv",
+        metadata_filename="multi_state_variables.csv"
+    )
 
 if __name__ == "__main__":
     main() 

@@ -29,11 +29,13 @@ class ACSFeatureReductionPipeline:
         years: Optional[Sequence[int]] = None,
         dataset: str = "acs/acs5",
         openai_selector: Optional[OpenAISelector] = None,
+        output_dir: Optional[str] = None,
     ) -> None:
         self.year = year
         self.years = years
         self.dataset = dataset
         self.openai_selector = openai_selector
+        self.output_dir = output_dir
         self._metadata: Optional[pd.DataFrame] = None
         self._selected: Optional[pd.DataFrame] = None
 
@@ -71,3 +73,23 @@ class ACSFeatureReductionPipeline:
         vars_ = [v for v in self._selected["name"] if v in df.columns]
         reduced = remove_high_correlation(df[vars_], threshold=corr_threshold)
         return reduced
+
+    def save_results(self, reduced_df: pd.DataFrame, metadata_df: pd.DataFrame, 
+                    data_filename: str = "reduced_data.csv", 
+                    metadata_filename: str = "variable_metadata.csv") -> None:
+        """Save reduced data and metadata to the specified output directory."""
+        if self.output_dir is None:
+            raise ValueError("Output directory not specified. Set output_dir in pipeline initialization.")
+        
+        import os
+        os.makedirs(self.output_dir, exist_ok=True)
+        
+        data_path = os.path.join(self.output_dir, data_filename)
+        metadata_path = os.path.join(self.output_dir, metadata_filename)
+        
+        reduced_df.to_csv(data_path, index=False)
+        metadata_df.to_csv(metadata_path, index=False)
+        
+        print(f"Results saved to:")
+        print(f"  Data: {data_path}")
+        print(f"  Metadata: {metadata_path}")

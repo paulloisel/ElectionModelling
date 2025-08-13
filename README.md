@@ -91,11 +91,12 @@ The `src/ingest/censuspipeline/` module provides advanced tools for processing A
 from src.ingest.censuspipeline.pipeline import ACSFeatureReductionPipeline
 from src.ingest.censuspipeline.openai_selector import OpenAISelector
 
-# Initialize pipeline with OpenAI selector
+# Initialize pipeline with OpenAI selector and output directory
 selector = OpenAISelector(model="gpt-4o-mini")
 pipeline = ACSFeatureReductionPipeline(
     years=[2020, 2021, 2022, 2023],
-    openai_selector=selector
+    openai_selector=selector,
+    output_dir="data/processed/my_analysis"
 )
 
 # Load metadata for variables available across all years
@@ -109,6 +110,14 @@ selected = pipeline.select_variables(
 
 # Reduce dataset by removing highly correlated variables
 reduced_df = pipeline.reduce_dataframe(acs_data, corr_threshold=0.9)
+
+# Save results to the specified output directory
+pipeline.save_results(
+    reduced_df=reduced_df,
+    metadata_df=selected,
+    data_filename="my_reduced_data.csv",
+    metadata_filename="my_variables.csv"
+)
 ```
 
 ## Setup

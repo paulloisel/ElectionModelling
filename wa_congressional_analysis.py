@@ -53,7 +53,10 @@ def get_wa_congressional_data(year, variables, dataset="acs/acs5"):
 def main():
     # Initialize pipeline
     years = list(range(2012, 2021))  # 2012 to 2020
-    pipeline = ACSFeatureReductionPipeline(years=years)
+    pipeline = ACSFeatureReductionPipeline(
+        years=years,
+        output_dir="data/processed/test_examples"
+    )
     
     logging.info("Starting WA congressional district analysis")
     logging.info(f"Analyzing years: {years}")
@@ -121,15 +124,13 @@ def main():
     final_results = pd.concat(list(results_by_year.values()), ignore_index=True)
     
     # Save results
-    output_file = f'wa_congressional_analysis_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
-    final_results.to_csv(output_file, index=False)
-    logging.info(f"Results saved to {output_file}")
-    
-    # Save metadata for selected variables
-    metadata_subset = metadata[metadata['name'].isin(final_results.columns)]
-    metadata_file = f'wa_congressional_variables_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
-    metadata_subset.to_csv(metadata_file, index=False)
-    logging.info(f"Variable metadata saved to {metadata_file}")
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    pipeline.save_results(
+        reduced_df=final_results,
+        metadata_df=metadata[metadata['name'].isin(final_results.columns)],
+        data_filename=f"wa_congressional_analysis_{timestamp}.csv",
+        metadata_filename=f"wa_congressional_variables_{timestamp}.csv"
+    )
     
     # Generate summary statistics
     logging.info("\nSummary of changes over time:")

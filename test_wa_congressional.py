@@ -9,7 +9,8 @@ def main():
     # Initialize pipeline for 2012-2022
     pipeline = ACSFeatureReductionPipeline(
         years=list(range(2012, 2023)),  # 2012 to 2022
-        dataset="acs/acs5"
+        dataset="acs/acs5",
+        output_dir="data/processed/test_examples"
     )
     
     print("\nLoading variables common across 2012-2022...")
@@ -90,9 +91,12 @@ def main():
     
     # Save results
     print("\nSaving results...")
-    reduced.to_csv('wa_congressional_test_data.csv', index=False)
-    final_metadata.to_csv('wa_congressional_variables_metadata.csv', index=False)
-    print("Results saved to wa_congressional_test_data.csv and wa_congressional_variables_metadata.csv")
+    pipeline.save_results(
+        reduced_df=reduced,
+        metadata_df=final_metadata,
+        data_filename="wa_congressional_test_data.csv",
+        metadata_filename="wa_congressional_variables_metadata.csv"
+    )
 
 if __name__ == "__main__":
     main()

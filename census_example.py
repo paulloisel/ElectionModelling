@@ -7,7 +7,8 @@ def main():
     # Initialize the pipeline for multiple years
     pipeline = ACSFeatureReductionPipeline(
         years=[2020, 2021, 2022],  # Get variables available across these years
-        dataset="acs/acs5"
+        dataset="acs/acs5",
+        output_dir="data/processed/test_examples"
     )
     
     # Load metadata (this will get variables common across all specified years)
@@ -55,6 +56,15 @@ def main():
     reduced = pipeline.reduce_dataframe(example_data, corr_threshold=0.8)
     print(f"\nReduced from {len(example_data.columns)} to {len(reduced.columns)} variables after correlation check")
     print("Remaining variables:", list(reduced.columns))
+    
+    # Save results
+    print("\nSaving results...")
+    pipeline.save_results(
+        reduced_df=reduced,
+        metadata_df=filtered,
+        data_filename="census_example_reduced_data.csv",
+        metadata_filename="census_example_variables.csv"
+    )
 
 if __name__ == "__main__":
     main()
