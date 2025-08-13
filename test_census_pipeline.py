@@ -1,8 +1,8 @@
 import pandas as pd
 
-from scr.censuspipeline.reduction import filter_variables, remove_high_correlation
-from scr.censuspipeline.pipeline import ACSFeatureReductionPipeline
-import scr.censuspipeline.metadata as md
+from src.ingest.censuspipeline.reduction import filter_variables, remove_high_correlation
+from src.ingest.censuspipeline.pipeline import ACSFeatureReductionPipeline
+import src.ingest.censuspipeline.metadata as md
 
 
 def test_filter_variables_keywords():

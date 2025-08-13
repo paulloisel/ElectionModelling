@@ -1,7 +1,7 @@
 """Example usage of the ACS Feature Reduction Pipeline."""
 
-from scr.censuspipeline.pipeline import ACSFeatureReductionPipeline
-from scr.censuspipeline.openai_selector import OpenAISelector
+from src.ingest.censuspipeline.pipeline import ACSFeatureReductionPipeline
+from src.ingest.censuspipeline.openai_selector import OpenAISelector
 
 def main():
     # Initialize the pipeline for multiple years

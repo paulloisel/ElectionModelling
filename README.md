@@ -14,7 +14,12 @@ ElectionModelling/
 ├── src/
 │   ├── ingest/
 │   │   ├── wa_results_loader.py    # XLSX & CSV → parquet
-│   │   └── census_fetch.py         # ACS pull & tidy
+│   │   └── censuspipeline/         # Advanced ACS data processing
+│   │       ├── __init__.py
+│   │       ├── pipeline.py         # End-to-end feature reduction pipeline
+│   │       ├── metadata.py         # ACS variable metadata fetching
+│   │       ├── openai_selector.py  # AI-powered variable selection
+│   │       └── reduction.py        # Correlation-based feature reduction
 │   ├── features/
 │   │   └── build_features.py       # joins, lag features, demographics
 │   ├── models/
@@ -48,7 +53,11 @@ This project implements multiple modeling approaches to predict election turnout
 
 ### Data Ingestion (`src/ingest/`)
 - **WA Results Loader**: Processes XLSX and CSV election files
-- **Census Fetcher**: Pulls ACS data via Census API and tidies for analysis
+- **Census Pipeline** (`censuspipeline/`): Advanced ACS data processing and feature reduction
+  - **Pipeline**: End-to-end feature reduction pipeline for ACS data
+  - **Metadata**: Fetches and manages ACS variable metadata across multiple years
+  - **OpenAI Selector**: AI-powered variable selection using OpenAI models
+  - **Reduction**: Correlation-based feature reduction to eliminate redundant variables
 
 ### Feature Engineering (`src/features/`)
 - **Data Joins**: Combines election results with demographic data
@@ -64,6 +73,43 @@ This project implements multiple modeling approaches to predict election turnout
 ### Utilities (`src/utils/`)
 - **Geometry**: Spatial operations for precinct-level analysis
 - **Downloader**: Automated data downloader for Washington State election data and voter demographics
+
+## Census Pipeline
+
+The `src/ingest/censuspipeline/` module provides advanced tools for processing American Community Survey (ACS) data:
+
+### Components
+
+- **`pipeline.py`**: Main `ACSFeatureReductionPipeline` class that orchestrates the entire feature reduction process
+- **`metadata.py`**: Functions to fetch ACS variable metadata from the Census API, including support for multi-year variable intersection
+- **`openai_selector.py`**: AI-powered variable selection using OpenAI models to identify the most relevant demographic variables
+- **`reduction.py`**: Statistical methods for filtering variables by keywords/prefixes and removing highly correlated features
+
+### Usage Example
+
+```python
+from src.ingest.censuspipeline.pipeline import ACSFeatureReductionPipeline
+from src.ingest.censuspipeline.openai_selector import OpenAISelector
+
+# Initialize pipeline with OpenAI selector
+selector = OpenAISelector(model="gpt-4o-mini")
+pipeline = ACSFeatureReductionPipeline(
+    years=[2020, 2021, 2022, 2023],
+    openai_selector=selector
+)
+
+# Load metadata for variables available across all years
+metadata = pipeline.load_metadata()
+
+# Select variables using keywords and AI selection
+selected = pipeline.select_variables(
+    keywords=["income", "education", "age"],
+    openai_top_k=20
+)
+
+# Reduce dataset by removing highly correlated variables
+reduced_df = pipeline.reduce_dataframe(acs_data, corr_threshold=0.9)
+```
 
 ## Setup
 
@@ -97,7 +143,6 @@ This project implements multiple modeling approaches to predict election turnout
    ```bash
    python src/ingest/ca_sov_parser.py
    python src/ingest/wa_results_loader.py
-   python src/ingest/census_fetch.py
    ```
 
 ## Usage

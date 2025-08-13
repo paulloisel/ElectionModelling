@@ -1,6 +1,6 @@
 """Example of using the ACS Feature Reduction Pipeline across multiple states."""
 
-from scr.censuspipeline.pipeline import ACSFeatureReductionPipeline
+from src.ingest.censuspipeline.pipeline import ACSFeatureReductionPipeline
 import pandas as pd
 import numpy as np
 

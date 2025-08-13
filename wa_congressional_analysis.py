@@ -2,8 +2,8 @@
 
 import pandas as pd
 import numpy as np
-from scr.censuspipeline.pipeline import ACSFeatureReductionPipeline
-from scr.censuspipeline.metadata import fetch_variable_metadata
+from src.ingest.censuspipeline.pipeline import ACSFeatureReductionPipeline
+from src.ingest.censuspipeline.metadata import fetch_variable_metadata
 import logging
 from datetime import datetime
 

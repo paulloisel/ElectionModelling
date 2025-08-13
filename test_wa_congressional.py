@@ -2,7 +2,7 @@
 
 import pandas as pd
 import numpy as np
-from scr.censuspipeline.pipeline import ACSFeatureReductionPipeline
+from src.ingest.censuspipeline.pipeline import ACSFeatureReductionPipeline
 import random
 
 def main():
