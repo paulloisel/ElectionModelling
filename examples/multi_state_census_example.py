@@ -1,5 +1,9 @@
 """Example of using the ACS Feature Reduction Pipeline across multiple states."""
 
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from src.ingest.censuspipeline.pipeline import ACSFeatureReductionPipeline
 import pandas as pd
 import numpy as np

@@ -9,6 +9,17 @@ ElectionModelling/
 ├── data/
 │   ├── raw/                # PDFs, XLSX, shapefiles, ACS zips
 │   └── processed/          # cleaned Parquet/Feather
+├── examples/               # Example scripts and usage demonstrations
+│   ├── census_example.py
+│   ├── multi_state_census_example.py
+│   ├── wa_congressional_analysis.py
+│   ├── visualize_wa_congressional.py
+│   └── example_demographics_search.py
+├── tests/                  # Unit and integration tests
+│   ├── test_census_pipeline.py
+│   ├── test_census_downloader.py
+│   ├── test_downloader.py
+│   └── test_wa_congressional.py
 ├── notebooks/
 │   └── 01_turnout_model_walkthrough.ipynb  <- final explainer
 ├── src/
@@ -153,6 +164,37 @@ pipeline.save_results(
    python src/ingest/ca_sov_parser.py
    python src/ingest/wa_results_loader.py
    ```
+
+## Running Examples and Tests
+
+### Examples
+Run example scripts to see the census pipeline in action:
+```bash
+# Basic census pipeline example
+python examples/census_example.py
+
+# Multi-state analysis example
+python examples/multi_state_census_example.py
+
+# Washington congressional analysis
+python examples/wa_congressional_analysis.py
+```
+
+📖 **See [examples/README.md](examples/README.md) for detailed documentation of all examples.**
+
+### Tests
+Run the test suite to verify functionality:
+```bash
+# Run all tests
+python -m pytest tests/
+
+# Run specific test file
+python -m pytest tests/test_census_pipeline.py -v
+```
+
+📖 **See [tests/README.md](tests/README.md) for detailed documentation of all tests.**
+
+All examples save their output to `data/processed/test_examples/` for easy inspection.
 
 ## Usage
 

@@ -1,5 +1,9 @@
 """Example usage of the ACS Feature Reduction Pipeline."""
 
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from src.ingest.censuspipeline.pipeline import ACSFeatureReductionPipeline
 from src.ingest.censuspipeline.openai_selector import OpenAISelector
 
