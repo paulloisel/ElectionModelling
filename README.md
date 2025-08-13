@@ -1,6 +1,6 @@
 # Election Modeling
 
-A comprehensive election turnout modeling project that analyzes historical election data from California and Washington states, incorporating demographic data from the American Community Survey (ACS) to predict voter turnout.
+A comprehensive election turnout modeling project that analyzes historical election data from Washington states, incorporating demographic data from the American Community Survey (ACS) to predict voter turnout.
 
 ## Project Structure
 
@@ -13,7 +13,6 @@ ElectionModelling/
 │   └── 01_turnout_model_walkthrough.ipynb  <- final explainer
 ├── src/
 │   ├── ingest/
-│   │   ├── ca_sov_parser.py        # pdfplumber + regex tables → parquet
 │   │   ├── wa_results_loader.py    # XLSX & CSV → parquet
 │   │   └── census_fetch.py         # ACS pull & tidy
 │   ├── features/
@@ -37,19 +36,17 @@ This project implements multiple modeling approaches to predict election turnout
 
 ## Data Sources
 
-### Election Data
-- **California Secretary of State**: PDF election results parsed using pdfplumber
+### Election Data:
 - **Washington State Elections**: XLSX and CSV files from state election offices
 
 ### Demographic Data
 - **American Community Survey (ACS)**: Census Bureau demographic variables
-- **Washington State Voter Demographics**: Age-based voter demographics from Secretary of State
+- **Washington State Voter Demographics**: Age-based voter demographics from Secretary of State (only 2024 for now)
 - **Spatial Data**: Shapefiles for precinct boundaries and spatial joins
 
 ## Features
 
 ### Data Ingestion (`src/ingest/`)
-- **CA SOV Parser**: Extracts tables from PDF election results using pdfplumber and regex
 - **WA Results Loader**: Processes XLSX and CSV election files
 - **Census Fetcher**: Pulls ACS data via Census API and tidies for analysis
 
@@ -66,7 +63,6 @@ This project implements multiple modeling approaches to predict election turnout
 
 ### Utilities (`src/utils/`)
 - **Geometry**: Spatial operations for precinct-level analysis
-- **CA Registration Counts**: Spatial joins for voter registration data
 - **Downloader**: Automated data downloader for Washington State election data and voter demographics
 
 ## Setup
@@ -93,7 +89,6 @@ This project implements multiple modeling approaches to predict election turnout
 ### Data Preparation
 
 1. **Place raw data in `data/raw/`**:
-   - CA election PDFs
    - WA election XLSX/CSV files
    - Census shapefiles
    - ACS data zips
