@@ -1,0 +1,11 @@
+Target,Model,R² Score,MSE
+democratic_share,xgboost,0.708,0.011285
+democratic_share,elasticnet,-7.149,0.315390
+turnout_rate,xgboost,-2.922,0.002589
+turnout_rate,elasticnet,-3.355,0.002875
+incumbent_share,xgboost,-14.317,0.018264
+incumbent_share,elasticnet,-174.742,0.209564
+margin,xgboost,0.690,0.050374
+margin,elasticnet,0.353,0.105071
+total_votes,xgboost,-9.154,11997016064.000000
+total_votes,elasticnet,-25.212,30969973231.818089

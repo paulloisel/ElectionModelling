@@ -4,7 +4,7 @@ Trains XGBoost models for election turnout prediction.
 """
 
 from pathlib import Path
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List, Tuple, Optional
 
 import joblib
 import numpy as np
@@ -40,7 +40,7 @@ def prepare_data(
 
 
 def train_xgboost(
-    X_train: np.ndarray, y_train: np.ndarray, params: Dict[str, Any] | None = None
+    X_train: np.ndarray, y_train: np.ndarray, params: Optional[Dict[str, Any]] = None
 ) -> xgb.XGBRegressor:
     """Train an ``xgboost.XGBRegressor`` model.
 
