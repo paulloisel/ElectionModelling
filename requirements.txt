@@ -1,31 +1,55 @@
-altgraph==0.17.2
-attrs==25.3.0
-CensusData==1.15.post1
-certifi==2025.8.3
-charset-normalizer==3.4.2
-click==8.1.8
-click-plugins==1.1.1.2
-cligj==0.7.2
-et_xmlfile==2.0.0
-fiona==1.10.1
-future==0.18.2
-geopandas==1.0.1
-idna==3.10
-importlib_metadata==8.7.0
-macholib==1.15.2
+# Core data science and machine learning
 numpy==2.0.2
-openpyxl==3.1.5
-packaging==25.0
 pandas==2.3.1
-openai==1.58.1
+scikit-learn==1.6.1
+xgboost==2.1.4
+statsmodels==0.14.5
+joblib==1.5.1
+
+# Data processing and visualization
+matplotlib==3.9.4
+seaborn==0.12.2
+plotly==5.17.0
+
+# Census and geographic data
+CensusData==1.15.post1
+geopandas==1.0.1
+fiona==1.10.1
 pyogrio==0.11.1
 pyproj==3.6.1
+shapely==2.0.7
+
+# File handling
+openpyxl==3.1.5
+et_xmlfile==2.0.0
+
+# API and web requests
+requests==2.32.4
+urllib3==2.5.0
+certifi==2025.8.3
+charset-normalizer==3.4.2
+idna==3.10
+
+# AI and automation
+openai==1.58.1
+
+# Utilities
 python-dateutil==2.9.0.post0
 python-decouple==3.8
 pytz==2025.2
-requests==2.32.4
-shapely==2.0.7
-six==1.17.0
 tzdata==2025.2
-urllib3==2.5.0
+packaging==25.0
+six==1.17.0
+future==0.18.2
+importlib_metadata==8.7.0
 zipp==3.23.0
+attrs==25.3.0
+
+# Geographic and mapping
+click==8.1.8
+click-plugins==1.1.1.2
+cligj==0.7.2
+
+# System dependencies (macOS)
+altgraph==0.17.2
+macholib==1.15.2
