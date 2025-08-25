@@ -111,9 +111,24 @@ def extract_random_effects(model: MixedLM) -> pd.DataFrame:
     """
 
     re_dict = model.random_effects
-    re_df = pd.DataFrame.from_dict(re_dict, orient="index")
-    re_df.index.name = "group"
-    return re_df.reset_index()
+    # Create DataFrame with proper column names from the start
+    groups = list(re_dict.keys())
+    effects = list(re_dict.values())
+    
+    # Handle different types of random effects
+    if isinstance(effects[0], (list, np.ndarray)):
+        # Multiple random effects per group
+        effect_names = [f'random_effect_{i}' for i in range(len(effects[0]))]
+        data = {name: [effects[i][j] for i in range(len(groups))] for j, name in enumerate(effect_names)}
+    else:
+        # Single random effect per group
+        data = {'random_effect_0': effects}
+    
+    re_df = pd.DataFrame(data)
+    re_df['group'] = groups
+    re_df = re_df[['group'] + [col for col in re_df.columns if col != 'group']]
+    
+    return re_df
 
 
 def predict_mixedlm(model: MixedLM, df: pd.DataFrame) -> np.ndarray:
